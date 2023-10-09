@@ -1,0 +1,124 @@
+2011-02-01 01:23:17.621673: ENGINE starting
+2011-02-01 01:23:17.622441: ENGINE loaded player module: player_p242-03q as player 0
+2011-02-01 01:23:17.630887: ENGINE loaded player module: temp as player 1
+2011-02-01 01:23:17.637950: ENGINE loaded player module: temp2 as player 2
+2011-02-01 01:23:17.650664: ENGINE loaded player module: temp3 as player 3
+2011-02-01 01:23:17.650729: ENGINE initializing
+2011-02-01 01:23:17.650761: MODEL initializing
+2011-02-01 01:23:17.651326: MODEL reading board file: board.txt
+2011-02-01 01:23:17.651382: ENGINE initializing UI
+2011-02-01 01:23:17.651414: ENGINE UI initializing
+2011-02-01 01:23:18.498304: ENGINE calling each player.init() for player 0
+2011-02-01 01:23:18.499346: ENGINE calling each player.init() for player 1
+2011-02-01 01:23:18.500852: ERROR player 1 init function caused an exception: invalid literal for int() with base 10: ''
+2011-02-01 01:23:18.501590: TRACE:
+Traceback (most recent call last):
+  File "engine.py", line 116, in initialize
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp.py", line 41, in init
+    return breakwalls(open(gameFile, 'r').read().split('\n'),board)
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp.py", line 25, in breakwalls
+    [r1,c1,r2,c2] = [int(x) for x in item.split(' ')]
+ValueError: invalid literal for int() with base 10: ''
+
+2011-02-01 01:23:18.501628: ENGINE invalidating player 1 from error in init
+2011-02-01 01:23:18.501658: ENGINE calling each player.init() for player 2
+2011-02-01 01:23:18.502481: ERROR player 2 init function caused an exception: invalid literal for int() with base 10: ''
+2011-02-01 01:23:18.503111: TRACE:
+Traceback (most recent call last):
+  File "engine.py", line 116, in initialize
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp2.py", line 41, in init
+    return breakwalls(open(gameFile, 'r').read().split('\n'),board)
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp2.py", line 25, in breakwalls
+    [r1,c1,r2,c2] = [int(x) for x in item.split(' ')]
+ValueError: invalid literal for int() with base 10: ''
+
+2011-02-01 01:23:18.503144: ENGINE invalidating player 2 from error in init
+2011-02-01 01:23:18.503172: ENGINE calling each player.init() for player 3
+2011-02-01 01:23:18.504075: ERROR player 3 init function caused an exception: invalid literal for int() with base 10: ''
+2011-02-01 01:23:18.504737: TRACE:
+Traceback (most recent call last):
+  File "engine.py", line 116, in initialize
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp3.py", line 41, in init
+    return breakwalls(open(gameFile, 'r').read().split('\n'),board)
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp3.py", line 25, in breakwalls
+    [r1,c1,r2,c2] = [int(x) for x in item.split(' ')]
+ValueError: invalid literal for int() with base 10: ''
+
+2011-02-01 01:23:18.504771: ENGINE invalidating player 3 from error in init
+2011-02-01 01:23:18.504830: ENGINE UI entering main loop
+2011-02-01 01:23:19.505114: ENGINE advancing to move # 0
+2011-02-01 01:23:19.505527: ENGINE getting next move from player 0
+2011-02-01 01:23:19.531222: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (8, 4)
+	end: (7, 4)
+2011-02-01 01:23:19.531315: ENGINE has validated player 0's move
+2011-02-01 01:23:19.531348: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:19.531390: ENGINE not notifying player 1 of last move because they made an invalid move.
+2011-02-01 01:23:19.531416: ENGINE not notifying player 2 of last move because they made an invalid move.
+2011-02-01 01:23:19.531440: ENGINE not notifying player 3 of last move because they made an invalid move.
+2011-02-01 01:23:19.531462: ENGINE finished with next move
+2011-02-01 01:23:19.844618: ENGINE not calling next move for player 1 because they made an invalid move.
+2011-02-01 01:23:19.844682: ENGINE has validated player 1's move
+2011-02-01 01:23:19.844714: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:19.844760: ENGINE finished with next move
+2011-02-01 01:23:20.162155: ENGINE not calling next move for player 2 because they made an invalid move.
+2011-02-01 01:23:20.162313: ENGINE has validated player 2's move
+2011-02-01 01:23:20.162353: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:20.162400: ENGINE finished with next move
+2011-02-01 01:23:20.475912: ENGINE not calling next move for player 3 because they made an invalid move.
+2011-02-01 01:23:20.475971: ENGINE has validated player 3's move
+2011-02-01 01:23:20.476001: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:20.476055: ENGINE finished with next move
+2011-02-01 01:23:20.812073: ENGINE advancing to move # 4
+2011-02-01 01:23:20.812137: ENGINE getting next move from player 0
+2011-02-01 01:23:20.834879: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (5, 7)
+	end: (7, 7)
+2011-02-01 01:23:20.838170: ENGINE has validated player 0's move
+2011-02-01 01:23:20.838210: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:20.838251: ENGINE not notifying player 1 of last move because they made an invalid move.
+2011-02-01 01:23:20.838277: ENGINE not notifying player 2 of last move because they made an invalid move.
+2011-02-01 01:23:20.838301: ENGINE not notifying player 3 of last move because they made an invalid move.
+2011-02-01 01:23:20.838322: ENGINE finished with next move
+2011-02-01 01:23:21.261619: ENGINE not calling next move for player 1 because they made an invalid move.
+2011-02-01 01:23:21.261684: ENGINE has validated player 1's move
+2011-02-01 01:23:21.261714: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:21.261758: ENGINE finished with next move
+2011-02-01 01:23:21.462224: ENGINE not calling next move for player 2 because they made an invalid move.
+2011-02-01 01:23:21.462284: ENGINE has validated player 2's move
+2011-02-01 01:23:21.462314: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:21.462357: ENGINE finished with next move
+2011-02-01 01:23:21.701592: ENGINE not calling next move for player 3 because they made an invalid move.
+2011-02-01 01:23:21.701657: ENGINE has validated player 3's move
+2011-02-01 01:23:21.701687: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:21.701731: ENGINE finished with next move
+2011-02-01 01:23:21.930657: ENGINE advancing to move # 8
+2011-02-01 01:23:21.930714: ENGINE getting next move from player 0
+2011-02-01 01:23:21.948029: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (7, 4)
+	end: (6, 4)
+2011-02-01 01:23:21.948118: ENGINE has validated player 0's move
+2011-02-01 01:23:21.948151: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:21.948192: ENGINE not notifying player 1 of last move because they made an invalid move.
+2011-02-01 01:23:21.948218: ENGINE not notifying player 2 of last move because they made an invalid move.
+2011-02-01 01:23:21.948241: ENGINE not notifying player 3 of last move because they made an invalid move.
+2011-02-01 01:23:21.948262: ENGINE finished with next move
+2011-02-01 01:23:22.261404: ENGINE not calling next move for player 1 because they made an invalid move.
+2011-02-01 01:23:22.261463: ENGINE has validated player 1's move
+2011-02-01 01:23:22.261493: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:22.261537: ENGINE finished with next move
+2011-02-01 01:23:22.482208: ENGINE not calling next move for player 2 because they made an invalid move.
+2011-02-01 01:23:22.482272: ENGINE has validated player 2's move
+2011-02-01 01:23:22.482303: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:22.482349: ENGINE finished with next move
+2011-02-01 01:23:22.711586: ENGINE not calling next move for player 3 because they made an invalid move.
+2011-02-01 01:23:22.711646: ENGINE has validated player 3's move
+2011-02-01 01:23:22.711676: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:23:22.711719: ENGINE finished with next move
+2011-02-01 01:23:23.044074: ENGINE shutting down

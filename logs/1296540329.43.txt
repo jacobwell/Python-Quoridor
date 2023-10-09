@@ -1,0 +1,594 @@
+2011-02-01 01:05:29.432557: ENGINE starting
+2011-02-01 01:05:29.433379: ENGINE loaded player module: player_p242-03q as player 0
+2011-02-01 01:05:29.433976: ENGINE loaded player module: temp as player 1
+2011-02-01 01:05:29.434579: ENGINE loaded player module: temp2 as player 2
+2011-02-01 01:05:29.435197: ENGINE loaded player module: temp3 as player 3
+2011-02-01 01:05:29.435231: ENGINE initializing
+2011-02-01 01:05:29.435263: MODEL initializing
+2011-02-01 01:05:29.441787: MODEL reading board file: board.txt
+2011-02-01 01:05:29.441873: ENGINE initializing UI
+2011-02-01 01:05:29.441911: ENGINE UI initializing
+2011-02-01 01:05:30.908871: ENGINE calling each player.init() for player 0
+2011-02-01 01:05:30.912966: ENGINE calling each player.init() for player 1
+2011-02-01 01:05:30.916135: ENGINE calling each player.init() for player 2
+2011-02-01 01:05:30.917898: ENGINE calling each player.init() for player 3
+2011-02-01 01:05:30.919492: ENGINE UI entering main loop
+2011-02-01 01:05:31.921398: ENGINE advancing to move # 0
+2011-02-01 01:05:31.921664: ENGINE getting next move from player 0
+2011-02-01 01:05:31.922705: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:31.948056: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (8, 4)
+	end: (7, 4)
+2011-02-01 01:05:31.948148: ENGINE has validated player 0's move
+2011-02-01 01:05:31.948181: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:31.948223: ENGINE notifying player 1 of last move
+2011-02-01 01:05:31.948514: ENGINE notifying player 2 of last move
+2011-02-01 01:05:31.948739: ENGINE notifying player 3 of last move
+2011-02-01 01:05:31.953491: ENGINE finished with next move
+2011-02-01 01:05:32.269184: ENGINE advancing to move # 1
+2011-02-01 01:05:32.269243: ENGINE getting next move from player 1
+2011-02-01 01:05:32.269283: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:32.290389: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (0, 4)
+	end: (1, 4)
+2011-02-01 01:05:32.290658: ENGINE has validated player 1's move
+2011-02-01 01:05:32.290789: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:32.290905: ENGINE notifying player 0 of last move
+2011-02-01 01:05:32.291233: ENGINE notifying player 2 of last move
+2011-02-01 01:05:32.292698: ENGINE notifying player 3 of last move
+2011-02-01 01:05:32.292960: ENGINE finished with next move
+2011-02-01 01:05:32.614764: ENGINE advancing to move # 2
+2011-02-01 01:05:32.614834: ENGINE getting next move from player 2
+2011-02-01 01:05:32.614879: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:32.649987: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (1, 4)
+	end: (1, 6)
+2011-02-01 01:05:32.653315: ENGINE has validated player 2's move
+2011-02-01 01:05:32.653358: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:32.653398: ENGINE notifying player 0 of last move
+2011-02-01 01:05:32.653721: ENGINE notifying player 1 of last move
+2011-02-01 01:05:32.654062: ENGINE notifying player 3 of last move
+2011-02-01 01:05:32.654312: ENGINE finished with next move
+2011-02-01 01:05:33.078092: ENGINE advancing to move # 3
+2011-02-01 01:05:33.078151: ENGINE getting next move from player 3
+2011-02-01 01:05:33.078192: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:33.100733: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (4, 8)
+	end: (4, 7)
+2011-02-01 01:05:33.100821: ENGINE has validated player 3's move
+2011-02-01 01:05:33.100854: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:33.100895: ENGINE notifying player 0 of last move
+2011-02-01 01:05:33.101154: ENGINE notifying player 1 of last move
+2011-02-01 01:05:33.101373: ENGINE notifying player 2 of last move
+2011-02-01 01:05:33.101587: ENGINE finished with next move
+2011-02-01 01:05:33.430083: ENGINE advancing to move # 4
+2011-02-01 01:05:33.430556: ENGINE getting next move from player 0
+2011-02-01 01:05:33.430688: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:33.461289: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (5, 4)
+	end: (7, 4)
+2011-02-01 01:05:33.464656: ENGINE has validated player 0's move
+2011-02-01 01:05:33.464706: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:33.464747: ENGINE notifying player 1 of last move
+2011-02-01 01:05:33.465039: ENGINE notifying player 2 of last move
+2011-02-01 01:05:33.465286: ENGINE notifying player 3 of last move
+2011-02-01 01:05:33.465527: ENGINE finished with next move
+2011-02-01 01:05:33.931510: ENGINE advancing to move # 5
+2011-02-01 01:05:33.931929: ENGINE getting next move from player 1
+2011-02-01 01:05:33.932060: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:33.962169: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: False
+	start: (5, 6)
+	end: (5, 8)
+2011-02-01 01:05:33.967897: ENGINE has validated player 1's move
+2011-02-01 01:05:33.967949: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:33.979676: ENGINE notifying player 0 of last move
+2011-02-01 01:05:33.980028: ENGINE notifying player 2 of last move
+2011-02-01 01:05:33.980282: ENGINE notifying player 3 of last move
+2011-02-01 01:05:33.980528: ENGINE finished with next move
+2011-02-01 01:05:34.448954: ENGINE advancing to move # 6
+2011-02-01 01:05:34.449015: ENGINE getting next move from player 2
+2011-02-01 01:05:34.449057: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:34.482232: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (8, 6)
+	end: (8, 8)
+2011-02-01 01:05:34.485589: ENGINE has validated player 2's move
+2011-02-01 01:05:34.485630: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:34.485670: ENGINE notifying player 0 of last move
+2011-02-01 01:05:34.485954: ENGINE notifying player 1 of last move
+2011-02-01 01:05:34.486203: ENGINE notifying player 3 of last move
+2011-02-01 01:05:34.486562: ENGINE finished with next move
+2011-02-01 01:05:34.927869: ENGINE advancing to move # 7
+2011-02-01 01:05:34.928296: ENGINE getting next move from player 3
+2011-02-01 01:05:34.928432: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:34.960061: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (4, 7)
+	end: (4, 6)
+2011-02-01 01:05:34.960151: ENGINE has validated player 3's move
+2011-02-01 01:05:34.960185: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:34.960225: ENGINE notifying player 0 of last move
+2011-02-01 01:05:34.960479: ENGINE notifying player 1 of last move
+2011-02-01 01:05:34.960699: ENGINE notifying player 2 of last move
+2011-02-01 01:05:34.960924: ENGINE finished with next move
+2011-02-01 01:05:35.302695: ENGINE advancing to move # 8
+2011-02-01 01:05:35.302755: ENGINE getting next move from player 0
+2011-02-01 01:05:35.302796: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:35.326400: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (7, 4)
+	end: (6, 4)
+2011-02-01 01:05:35.326496: ENGINE has validated player 0's move
+2011-02-01 01:05:35.326529: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:35.326570: ENGINE notifying player 1 of last move
+2011-02-01 01:05:35.326825: ENGINE notifying player 2 of last move
+2011-02-01 01:05:35.327042: ENGINE notifying player 3 of last move
+2011-02-01 01:05:35.327286: ENGINE finished with next move
+2011-02-01 01:05:35.642025: ENGINE advancing to move # 9
+2011-02-01 01:05:35.642089: ENGINE getting next move from player 1
+2011-02-01 01:05:35.642130: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:35.683122: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (1, 4)
+	end: (2, 4)
+2011-02-01 01:05:35.683392: ENGINE has validated player 1's move
+2011-02-01 01:05:35.683507: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:35.684141: ENGINE notifying player 0 of last move
+2011-02-01 01:05:35.684491: ENGINE notifying player 2 of last move
+2011-02-01 01:05:35.685156: ENGINE notifying player 3 of last move
+2011-02-01 01:05:35.685465: ENGINE finished with next move
+2011-02-01 01:05:36.072858: ENGINE advancing to move # 10
+2011-02-01 01:05:36.072918: ENGINE getting next move from player 2
+2011-02-01 01:05:36.072958: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:36.103448: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (2, 4)
+	end: (2, 6)
+2011-02-01 01:05:36.106749: ENGINE has validated player 2's move
+2011-02-01 01:05:36.106786: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:36.106826: ENGINE notifying player 0 of last move
+2011-02-01 01:05:36.107288: ENGINE notifying player 1 of last move
+2011-02-01 01:05:36.107542: ENGINE notifying player 3 of last move
+2011-02-01 01:05:36.107785: ENGINE finished with next move
+2011-02-01 01:05:36.527801: ENGINE advancing to move # 11
+2011-02-01 01:05:36.527861: ENGINE getting next move from player 3
+2011-02-01 01:05:36.527901: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:36.567326: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: False
+	start: (4, 4)
+	end: (4, 6)
+2011-02-01 01:05:36.570643: ENGINE has validated player 3's move
+2011-02-01 01:05:36.570688: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:36.570729: ENGINE notifying player 0 of last move
+2011-02-01 01:05:36.571012: ENGINE notifying player 1 of last move
+2011-02-01 01:05:36.571259: ENGINE notifying player 2 of last move
+2011-02-01 01:05:36.571500: ENGINE finished with next move
+2011-02-01 01:05:36.980751: ENGINE advancing to move # 12
+2011-02-01 01:05:36.980810: ENGINE getting next move from player 0
+2011-02-01 01:05:36.980849: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:37.010881: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (6, 4)
+	end: (5, 4)
+2011-02-01 01:05:37.010975: ENGINE has validated player 0's move
+2011-02-01 01:05:37.011008: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:37.011050: ENGINE notifying player 1 of last move
+2011-02-01 01:05:37.011302: ENGINE notifying player 2 of last move
+2011-02-01 01:05:37.011519: ENGINE notifying player 3 of last move
+2011-02-01 01:05:37.011731: ENGINE finished with next move
+2011-02-01 01:05:37.356813: ENGINE advancing to move # 13
+2011-02-01 01:05:37.357304: ENGINE getting next move from player 1
+2011-02-01 01:05:37.357434: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:37.415326: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: False
+	start: (5, 1)
+	end: (7, 1)
+2011-02-01 01:05:37.418852: ENGINE has validated player 1's move
+2011-02-01 01:05:37.418908: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:37.418953: ENGINE notifying player 0 of last move
+2011-02-01 01:05:37.419243: ENGINE notifying player 2 of last move
+2011-02-01 01:05:37.419492: ENGINE notifying player 3 of last move
+2011-02-01 01:05:37.419733: ENGINE finished with next move
+2011-02-01 01:05:37.817654: ENGINE advancing to move # 14
+2011-02-01 01:05:37.818034: ENGINE getting next move from player 2
+2011-02-01 01:05:37.818161: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:37.839940: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (4, 0)
+	end: (4, 1)
+2011-02-01 01:05:37.840114: ENGINE has validated player 2's move
+2011-02-01 01:05:37.840156: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:37.840198: ENGINE notifying player 0 of last move
+2011-02-01 01:05:37.840491: ENGINE notifying player 1 of last move
+2011-02-01 01:05:37.840712: ENGINE notifying player 3 of last move
+2011-02-01 01:05:37.840936: ENGINE finished with next move
+2011-02-01 01:05:38.142400: ENGINE advancing to move # 15
+2011-02-01 01:05:38.142470: ENGINE getting next move from player 3
+2011-02-01 01:05:38.142510: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:38.182531: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: False
+	start: (5, 2)
+	end: (7, 2)
+2011-02-01 01:05:38.185872: ENGINE has validated player 3's move
+2011-02-01 01:05:38.185915: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:38.185956: ENGINE notifying player 0 of last move
+2011-02-01 01:05:38.186240: ENGINE notifying player 1 of last move
+2011-02-01 01:05:38.186488: ENGINE notifying player 2 of last move
+2011-02-01 01:05:38.186730: ENGINE finished with next move
+2011-02-01 01:05:38.607389: ENGINE advancing to move # 16
+2011-02-01 01:05:38.607449: ENGINE getting next move from player 0
+2011-02-01 01:05:38.607489: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:38.645214: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (5, 4)
+	end: (4, 4)
+2011-02-01 01:05:38.645313: ENGINE has validated player 0's move
+2011-02-01 01:05:38.645348: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:38.645389: ENGINE notifying player 1 of last move
+2011-02-01 01:05:38.645645: ENGINE notifying player 2 of last move
+2011-02-01 01:05:38.645864: ENGINE notifying player 3 of last move
+2011-02-01 01:05:38.646078: ENGINE finished with next move
+2011-02-01 01:05:38.931240: ENGINE advancing to move # 17
+2011-02-01 01:05:38.931625: ENGINE getting next move from player 1
+2011-02-01 01:05:38.931753: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:38.966696: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (2, 4)
+	end: (3, 4)
+2011-02-01 01:05:38.966790: ENGINE has validated player 1's move
+2011-02-01 01:05:38.966822: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:38.966863: ENGINE notifying player 0 of last move
+2011-02-01 01:05:38.967118: ENGINE notifying player 2 of last move
+2011-02-01 01:05:38.967338: ENGINE notifying player 3 of last move
+2011-02-01 01:05:38.967552: ENGINE finished with next move
+2011-02-01 01:05:39.281458: ENGINE advancing to move # 18
+2011-02-01 01:05:39.281519: ENGINE getting next move from player 2
+2011-02-01 01:05:39.281560: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:39.301677: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (4, 1)
+	end: (4, 2)
+2011-02-01 01:05:39.301783: ENGINE has validated player 2's move
+2011-02-01 01:05:39.301818: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:39.301858: ENGINE notifying player 0 of last move
+2011-02-01 01:05:39.302124: ENGINE notifying player 1 of last move
+2011-02-01 01:05:39.302348: ENGINE notifying player 3 of last move
+2011-02-01 01:05:39.302564: ENGINE finished with next move
+2011-02-01 01:05:39.658393: ENGINE advancing to move # 19
+2011-02-01 01:05:39.658846: ENGINE getting next move from player 3
+2011-02-01 01:05:39.658977: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:39.719151: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: False
+	start: (7, 0)
+	end: (7, 2)
+2011-02-01 01:05:39.722877: ENGINE has validated player 3's move
+2011-02-01 01:05:39.722917: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:39.723027: ENGINE notifying player 0 of last move
+2011-02-01 01:05:39.723317: ENGINE notifying player 1 of last move
+2011-02-01 01:05:39.723568: ENGINE notifying player 2 of last move
+2011-02-01 01:05:39.723810: ENGINE finished with next move
+2011-02-01 01:05:40.216364: ENGINE advancing to move # 20
+2011-02-01 01:05:40.216426: ENGINE getting next move from player 0
+2011-02-01 01:05:40.216466: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:40.234995: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (4, 4)
+	end: (4, 3)
+2011-02-01 01:05:40.235094: ENGINE has validated player 0's move
+2011-02-01 01:05:40.235126: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:40.235167: ENGINE notifying player 1 of last move
+2011-02-01 01:05:40.235424: ENGINE notifying player 2 of last move
+2011-02-01 01:05:40.235640: ENGINE notifying player 3 of last move
+2011-02-01 01:05:40.235851: ENGINE finished with next move
+2011-02-01 01:05:40.557992: ENGINE advancing to move # 21
+2011-02-01 01:05:40.558057: ENGINE getting next move from player 1
+2011-02-01 01:05:40.558100: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:40.586448: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (3, 4)
+	end: (3, 3)
+2011-02-01 01:05:40.586541: ENGINE has validated player 1's move
+2011-02-01 01:05:40.586573: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:40.586613: ENGINE notifying player 0 of last move
+2011-02-01 01:05:40.586863: ENGINE notifying player 2 of last move
+2011-02-01 01:05:40.587081: ENGINE notifying player 3 of last move
+2011-02-01 01:05:40.587303: ENGINE finished with next move
+2011-02-01 01:05:40.928323: ENGINE advancing to move # 22
+2011-02-01 01:05:40.928758: ENGINE getting next move from player 2
+2011-02-01 01:05:40.928884: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:40.996545: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (4, 2)
+	end: (4, 4)
+2011-02-01 01:05:40.996649: ENGINE has validated player 2's move
+2011-02-01 01:05:40.996683: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:40.996724: ENGINE notifying player 0 of last move
+2011-02-01 01:05:40.996972: ENGINE notifying player 1 of last move
+2011-02-01 01:05:40.997188: ENGINE notifying player 3 of last move
+2011-02-01 01:05:40.997404: ENGINE finished with next move
+2011-02-01 01:05:41.374117: ENGINE advancing to move # 23
+2011-02-01 01:05:41.374179: ENGINE getting next move from player 3
+2011-02-01 01:05:41.374222: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:41.391921: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (4, 6)
+	end: (4, 5)
+2011-02-01 01:05:41.392015: ENGINE has validated player 3's move
+2011-02-01 01:05:41.392051: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:41.392106: ENGINE notifying player 0 of last move
+2011-02-01 01:05:41.392362: ENGINE notifying player 1 of last move
+2011-02-01 01:05:41.392597: ENGINE notifying player 2 of last move
+2011-02-01 01:05:41.392815: ENGINE finished with next move
+2011-02-01 01:05:41.719084: ENGINE advancing to move # 24
+2011-02-01 01:05:41.719144: ENGINE getting next move from player 0
+2011-02-01 01:05:41.719184: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:41.789555: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (4, 3)
+	end: (2, 3)
+2011-02-01 01:05:41.789668: ENGINE has validated player 0's move
+2011-02-01 01:05:41.789702: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:41.789744: ENGINE notifying player 1 of last move
+2011-02-01 01:05:41.789997: ENGINE notifying player 2 of last move
+2011-02-01 01:05:41.790287: ENGINE notifying player 3 of last move
+2011-02-01 01:05:41.790501: ENGINE finished with next move
+2011-02-01 01:05:42.174377: ENGINE advancing to move # 25
+2011-02-01 01:05:42.174848: ENGINE getting next move from player 1
+2011-02-01 01:05:42.174978: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:42.211873: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (3, 3)
+	end: (4, 3)
+2011-02-01 01:05:42.211969: ENGINE has validated player 1's move
+2011-02-01 01:05:42.212002: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:42.212043: ENGINE notifying player 0 of last move
+2011-02-01 01:05:42.212294: ENGINE notifying player 2 of last move
+2011-02-01 01:05:42.212510: ENGINE notifying player 3 of last move
+2011-02-01 01:05:42.212721: ENGINE finished with next move
+2011-02-01 01:05:42.609874: ENGINE advancing to move # 26
+2011-02-01 01:05:42.609935: ENGINE getting next move from player 2
+2011-02-01 01:05:42.609974: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:42.634702: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (0, 3)
+	end: (2, 3)
+2011-02-01 01:05:42.640918: ENGINE has validated player 2's move
+2011-02-01 01:05:42.641124: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:42.641257: ENGINE notifying player 0 of last move
+2011-02-01 01:05:42.642148: ENGINE notifying player 1 of last move
+2011-02-01 01:05:42.642490: ENGINE notifying player 3 of last move
+2011-02-01 01:05:42.642816: ENGINE finished with next move
+2011-02-01 01:05:42.950694: ENGINE advancing to move # 27
+2011-02-01 01:05:42.950762: ENGINE getting next move from player 3
+2011-02-01 01:05:42.950804: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:43.020303: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (4, 5)
+	end: (5, 4)
+2011-02-01 01:05:43.023876: ENGINE has validated player 3's move
+2011-02-01 01:05:43.023917: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:43.023959: ENGINE notifying player 0 of last move
+2011-02-01 01:05:43.024230: ENGINE notifying player 1 of last move
+2011-02-01 01:05:43.024452: ENGINE notifying player 2 of last move
+2011-02-01 01:05:43.024668: ENGINE finished with next move
+2011-02-01 01:05:43.322663: ENGINE advancing to move # 28
+2011-02-01 01:05:43.322727: ENGINE getting next move from player 0
+2011-02-01 01:05:43.322767: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:43.344052: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (6, 3)
+	end: (8, 3)
+2011-02-01 01:05:43.347006: ENGINE has validated player 0's move
+2011-02-01 01:05:43.347046: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:43.347089: ENGINE notifying player 1 of last move
+2011-02-01 01:05:43.347369: ENGINE notifying player 2 of last move
+2011-02-01 01:05:43.347617: ENGINE notifying player 3 of last move
+2011-02-01 01:05:43.347862: ENGINE finished with next move
+2011-02-01 01:05:43.803531: ENGINE advancing to move # 29
+2011-02-01 01:05:43.803594: ENGINE getting next move from player 1
+2011-02-01 01:05:43.803635: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:43.822019: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (4, 3)
+	end: (5, 3)
+2011-02-01 01:05:43.822112: ENGINE has validated player 1's move
+2011-02-01 01:05:43.822146: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:43.822188: ENGINE notifying player 0 of last move
+2011-02-01 01:05:43.822443: ENGINE notifying player 2 of last move
+2011-02-01 01:05:43.822666: ENGINE notifying player 3 of last move
+2011-02-01 01:05:43.822883: ENGINE finished with next move
+2011-02-01 01:05:44.140288: ENGINE advancing to move # 30
+2011-02-01 01:05:44.140414: ENGINE getting next move from player 2
+2011-02-01 01:05:44.140455: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:44.160966: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (2, 7)
+	end: (4, 7)
+2011-02-01 01:05:44.163677: ENGINE has validated player 2's move
+2011-02-01 01:05:44.163717: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:44.163757: ENGINE notifying player 0 of last move
+2011-02-01 01:05:44.164038: ENGINE notifying player 1 of last move
+2011-02-01 01:05:44.164287: ENGINE notifying player 3 of last move
+2011-02-01 01:05:44.164534: ENGINE finished with next move
+2011-02-01 01:05:44.490450: ENGINE advancing to move # 31
+2011-02-01 01:05:44.490509: ENGINE getting next move from player 3
+2011-02-01 01:05:44.490549: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:44.576752: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: False
+	start: (3, 3)
+	end: (3, 5)
+2011-02-01 01:05:44.579980: ENGINE has validated player 3's move
+2011-02-01 01:05:44.580029: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:44.580070: ENGINE notifying player 0 of last move
+2011-02-01 01:05:44.580352: ENGINE notifying player 1 of last move
+2011-02-01 01:05:44.580599: ENGINE notifying player 2 of last move
+2011-02-01 01:05:44.580845: ENGINE finished with next move
+2011-02-01 01:05:44.968876: ENGINE advancing to move # 32
+2011-02-01 01:05:44.968932: ENGINE getting next move from player 0
+2011-02-01 01:05:44.968972: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:45.002676: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (2, 3)
+	end: (1, 3)
+2011-02-01 01:05:45.002770: ENGINE has validated player 0's move
+2011-02-01 01:05:45.012097: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:45.012189: ENGINE notifying player 1 of last move
+2011-02-01 01:05:45.012459: ENGINE notifying player 2 of last move
+2011-02-01 01:05:45.020330: ENGINE notifying player 3 of last move
+2011-02-01 01:05:45.020605: ENGINE finished with next move
+2011-02-01 01:05:45.514996: ENGINE advancing to move # 33
+2011-02-01 01:05:45.515056: ENGINE getting next move from player 1
+2011-02-01 01:05:45.515097: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:45.531973: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (5, 3)
+	end: (6, 3)
+2011-02-01 01:05:45.532180: ENGINE has validated player 1's move
+2011-02-01 01:05:45.532219: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:45.532260: ENGINE notifying player 0 of last move
+2011-02-01 01:05:45.532518: ENGINE notifying player 2 of last move
+2011-02-01 01:05:45.532736: ENGINE notifying player 3 of last move
+2011-02-01 01:05:45.532951: ENGINE finished with next move
+2011-02-01 01:05:46.051814: ENGINE advancing to move # 34
+2011-02-01 01:05:46.052169: ENGINE getting next move from player 2
+2011-02-01 01:05:46.052218: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:46.079679: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (4, 4)
+	end: (4, 5)
+2011-02-01 01:05:46.079775: ENGINE has validated player 2's move
+2011-02-01 01:05:46.079808: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:46.079848: ENGINE notifying player 0 of last move
+2011-02-01 01:05:46.080098: ENGINE notifying player 1 of last move
+2011-02-01 01:05:46.080314: ENGINE notifying player 3 of last move
+2011-02-01 01:05:46.080525: ENGINE finished with next move
+2011-02-01 01:05:46.404094: ENGINE advancing to move # 35
+2011-02-01 01:05:46.404553: ENGINE getting next move from player 3
+2011-02-01 01:05:46.404698: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:46.430738: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (5, 4)
+	end: (4, 4)
+2011-02-01 01:05:46.430998: ENGINE has validated player 3's move
+2011-02-01 01:05:46.431117: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:46.431238: ENGINE notifying player 0 of last move
+2011-02-01 01:05:46.431818: ENGINE notifying player 1 of last move
+2011-02-01 01:05:46.432132: ENGINE notifying player 2 of last move
+2011-02-01 01:05:46.432449: ENGINE finished with next move
+2011-02-01 01:05:46.750077: ENGINE advancing to move # 36
+2011-02-01 01:05:46.750136: ENGINE getting next move from player 0
+2011-02-01 01:05:46.750175: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:46.771400: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (4, 6)
+	end: (4, 8)
+2011-02-01 01:05:46.775101: ENGINE has validated player 0's move
+2011-02-01 01:05:46.775254: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:46.775374: ENGINE notifying player 1 of last move
+2011-02-01 01:05:46.775738: ENGINE notifying player 2 of last move
+2011-02-01 01:05:46.776089: ENGINE notifying player 3 of last move
+2011-02-01 01:05:46.776419: ENGINE finished with next move
+2011-02-01 01:05:47.121598: ENGINE advancing to move # 37
+2011-02-01 01:05:47.121657: ENGINE getting next move from player 1
+2011-02-01 01:05:47.121697: player.move called for player <temp.aBoard object at 0x16514260> with <temp.aBoard object at 0x16514260>
+2011-02-01 01:05:47.134327: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (6, 3)
+	end: (7, 3)
+2011-02-01 01:05:47.134415: ENGINE has validated player 1's move
+2011-02-01 01:05:47.134448: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:47.134489: ENGINE notifying player 0 of last move
+2011-02-01 01:05:47.134745: ENGINE notifying player 2 of last move
+2011-02-01 01:05:47.134967: ENGINE notifying player 3 of last move
+2011-02-01 01:05:47.135183: ENGINE finished with next move
+2011-02-01 01:05:47.469127: ENGINE advancing to move # 38
+2011-02-01 01:05:47.469626: ENGINE getting next move from player 2
+2011-02-01 01:05:47.470231: player.move called for player <temp2.aBoard object at 0x18c1c2b0> with <temp2.aBoard object at 0x18c1c2b0>
+2011-02-01 01:05:47.495998: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (4, 5)
+	end: (4, 6)
+2011-02-01 01:05:47.496095: ENGINE has validated player 2's move
+2011-02-01 01:05:47.496128: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:47.496169: ENGINE notifying player 0 of last move
+2011-02-01 01:05:47.496425: ENGINE notifying player 1 of last move
+2011-02-01 01:05:47.496645: ENGINE notifying player 3 of last move
+2011-02-01 01:05:47.496861: ENGINE finished with next move
+2011-02-01 01:05:47.800236: ENGINE advancing to move # 39
+2011-02-01 01:05:47.800294: ENGINE getting next move from player 3
+2011-02-01 01:05:47.800333: player.move called for player <temp3.aBoard object at 0x18c1c490> with <temp3.aBoard object at 0x18c1c490>
+2011-02-01 01:05:47.822651: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (4, 4)
+	end: (4, 3)
+2011-02-01 01:05:47.822746: ENGINE has validated player 3's move
+2011-02-01 01:05:47.822780: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:47.822820: ENGINE notifying player 0 of last move
+2011-02-01 01:05:47.823636: ENGINE notifying player 1 of last move
+2011-02-01 01:05:47.823868: ENGINE notifying player 2 of last move
+2011-02-01 01:05:47.824082: ENGINE finished with next move
+2011-02-01 01:05:48.143760: ENGINE advancing to move # 40
+2011-02-01 01:05:48.143820: ENGINE getting next move from player 0
+2011-02-01 01:05:48.143859: player.move called for player <player_p242-03q.aBoard object at 0x16511850> with <player_p242-03q.aBoard object at 0x16511850>
+2011-02-01 01:05:48.162410: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (1, 3)
+	end: (0, 3)
+2011-02-01 01:05:48.162793: ENGINE has validated player 0's move
+2011-02-01 01:05:48.162908: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:05:48.163014: MODEL detects player 0 has won the game.
+2011-02-01 01:05:48.163119: ENGINE detects the game is over. Player 0 (player_p242-03q) has won in 40 moves!
+2011-02-01 01:05:48.163252: ENGINE notifying player 1 of last move
+2011-02-01 01:05:48.163712: ENGINE notifying player 2 of last move
+2011-02-01 01:05:48.163974: ENGINE notifying player 3 of last move
+2011-02-01 01:05:48.164184: ENGINE finished with next move
+2011-02-01 01:05:48.166078: MODEL detects player 0 has won the game.
+2011-02-01 01:05:48.166332: MODEL detects player 0 has won the game.
+2011-02-01 01:05:50.163357: ENGINE shutting down

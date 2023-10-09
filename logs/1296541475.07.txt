@@ -1,0 +1,76 @@
+2011-02-01 01:24:35.072642: ENGINE starting
+2011-02-01 01:24:35.073357: ENGINE loaded player module: player_p242-03q as player 0
+2011-02-01 01:24:35.073948: ENGINE loaded player module: temp as player 1
+2011-02-01 01:24:35.074594: ENGINE loaded player module: temp2 as player 2
+2011-02-01 01:24:35.075215: ENGINE loaded player module: temp3 as player 3
+2011-02-01 01:24:35.075249: ENGINE initializing
+2011-02-01 01:24:35.075290: MODEL initializing
+2011-02-01 01:24:35.081216: MODEL reading board file: board.txt
+2011-02-01 01:24:35.081296: ENGINE initializing UI
+2011-02-01 01:24:35.081333: ENGINE UI initializing
+2011-02-01 01:24:35.993047: ENGINE calling each player.init() for player 0
+2011-02-01 01:24:35.994088: ENGINE calling each player.init() for player 1
+2011-02-01 01:24:35.995412: ERROR player 1 init function caused an exception: invalid literal for int() with base 10: ''
+2011-02-01 01:24:35.996201: TRACE:
+Traceback (most recent call last):
+  File "engine.py", line 116, in initialize
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp.py", line 41, in init
+    return breakwalls(open(gameFile, 'r').read().split('\n'),board)
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp.py", line 25, in breakwalls
+    [r1,c1,r2,c2] = [int(x) for x in item.split(' ')]
+ValueError: invalid literal for int() with base 10: ''
+
+2011-02-01 01:24:35.996241: ENGINE invalidating player 1 from error in init
+2011-02-01 01:24:35.996275: ENGINE calling each player.init() for player 2
+2011-02-01 01:24:35.997095: ERROR player 2 init function caused an exception: invalid literal for int() with base 10: ''
+2011-02-01 01:24:35.998104: TRACE:
+Traceback (most recent call last):
+  File "engine.py", line 116, in initialize
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp2.py", line 41, in init
+    return breakwalls(open(gameFile, 'r').read().split('\n'),board)
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp2.py", line 25, in breakwalls
+    [r1,c1,r2,c2] = [int(x) for x in item.split(' ')]
+ValueError: invalid literal for int() with base 10: ''
+
+2011-02-01 01:24:35.998144: ENGINE invalidating player 2 from error in init
+2011-02-01 01:24:35.998177: ENGINE calling each player.init() for player 3
+2011-02-01 01:24:35.999008: ERROR player 3 init function caused an exception: invalid literal for int() with base 10: ''
+2011-02-01 01:24:35.999607: TRACE:
+Traceback (most recent call last):
+  File "engine.py", line 116, in initialize
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp3.py", line 41, in init
+    return breakwalls(open(gameFile, 'r').read().split('\n'),board)
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp3.py", line 25, in breakwalls
+    [r1,c1,r2,c2] = [int(x) for x in item.split(' ')]
+ValueError: invalid literal for int() with base 10: ''
+
+2011-02-01 01:24:35.999645: ENGINE invalidating player 3 from error in init
+2011-02-01 01:24:35.999705: ENGINE UI entering main loop
+2011-02-01 01:24:37.009207: ENGINE advancing to move # 0
+2011-02-01 01:24:37.009267: ENGINE getting next move from player 0
+2011-02-01 01:24:37.032205: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (1, 5)
+	end: (1, 7)
+2011-02-01 01:24:37.035467: ENGINE has validated player 0's move
+2011-02-01 01:24:37.035509: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:24:37.035553: ENGINE not notifying player 1 of last move because they made an invalid move.
+2011-02-01 01:24:37.035583: ENGINE not notifying player 2 of last move because they made an invalid move.
+2011-02-01 01:24:37.035611: ENGINE not notifying player 3 of last move because they made an invalid move.
+2011-02-01 01:24:37.035637: ENGINE finished with next move
+2011-02-01 01:24:37.424791: ENGINE not calling next move for player 1 because they made an invalid move.
+2011-02-01 01:24:37.424852: ENGINE has validated player 1's move
+2011-02-01 01:24:37.424883: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:24:37.424927: ENGINE finished with next move
+2011-02-01 01:24:37.642935: ENGINE not calling next move for player 2 because they made an invalid move.
+2011-02-01 01:24:37.643070: ENGINE has validated player 2's move
+2011-02-01 01:24:37.643103: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:24:37.643180: ENGINE finished with next move
+2011-02-01 01:24:37.974518: ENGINE not calling next move for player 3 because they made an invalid move.
+2011-02-01 01:24:37.974579: ENGINE has validated player 3's move
+2011-02-01 01:24:37.974610: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 01:24:37.974654: ENGINE finished with next move
+2011-02-01 01:24:38.076590: UI: Mouse position (x,y): (466, 289) Tile: (row, column): (5, 6)
+2011-02-01 01:24:38.076681: ENGINE UI toggled pause = True
+2011-02-01 01:28:15.375619: ENGINE shutting down

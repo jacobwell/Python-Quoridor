@@ -1,0 +1,65 @@
+2011-02-01 01:00:37.806491: ENGINE starting
+2011-02-01 01:00:37.820011: ENGINE loaded player module: player_p242-03q2 as player 0
+2011-02-01 01:00:37.821109: ENGINE loaded player module: temp as player 1
+2011-02-01 01:00:37.821791: ENGINE loaded player module: temp2 as player 2
+2011-02-01 01:00:37.827987: ENGINE loaded player module: temp3 as player 3
+2011-02-01 01:00:37.828044: ENGINE initializing
+2011-02-01 01:00:37.828074: MODEL initializing
+2011-02-01 01:00:37.828637: MODEL reading board file: board.txt
+2011-02-01 01:00:37.828688: ENGINE initializing UI
+2011-02-01 01:00:37.828720: ENGINE UI initializing
+2011-02-01 01:00:39.679140: ENGINE calling each player.init() for player 0
+2011-02-01 01:00:39.683032: ENGINE calling each player.init() for player 1
+2011-02-01 01:00:39.683989: ENGINE calling each player.init() for player 2
+2011-02-01 01:00:39.684907: ENGINE calling each player.init() for player 3
+2011-02-01 01:00:39.686091: ENGINE UI entering main loop
+2011-02-01 01:00:40.713554: ENGINE advancing to move # 0
+2011-02-01 01:00:40.713612: ENGINE getting next move from player 0
+2011-02-01 01:00:40.713677: ERROR: need more than 0 values to unpack
+2011-02-01 01:00:40.714539: TRACE: 
+Traceback (most recent call last):
+  File "engine.py", line 166, in next_move
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/player_p242-03q2.py", line 150, in move
+    move = False, mid = playerData.wallmidpts, bad = []
+ValueError: need more than 0 values to unpack
+
+2011-02-01 01:00:40.714576: ENGINE invalidating player 0 because they made an invalid move.
+2011-02-01 01:00:40.714602: ENGINE finished with next move
+2011-02-01 01:00:41.159780: ENGINE advancing to move # 1
+2011-02-01 01:00:41.159838: ENGINE getting next move from player 1
+2011-02-01 01:00:41.159886: ERROR: local variable 'True' referenced before assignment
+2011-02-01 01:00:41.161363: TRACE: 
+Traceback (most recent call last):
+  File "engine.py", line 166, in next_move
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp.py", line 109, in move
+    move = True
+UnboundLocalError: local variable 'True' referenced before assignment
+
+2011-02-01 01:00:41.161415: ENGINE invalidating player 1 because they made an invalid move.
+2011-02-01 01:00:41.161443: ENGINE finished with next move
+2011-02-01 01:00:41.493092: ENGINE advancing to move # 2
+2011-02-01 01:00:41.493548: ENGINE getting next move from player 2
+2011-02-01 01:00:41.493704: ERROR: need more than 0 values to unpack
+2011-02-01 01:00:41.495155: TRACE: 
+Traceback (most recent call last):
+  File "engine.py", line 166, in next_move
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp2.py", line 150, in move
+    move = False, mid = playerData.wallmidpts, bad = []
+ValueError: need more than 0 values to unpack
+
+2011-02-01 01:00:41.495203: ENGINE invalidating player 2 because they made an invalid move.
+2011-02-01 01:00:41.495233: ENGINE finished with next move
+2011-02-01 01:00:41.827846: ENGINE advancing to move # 3
+2011-02-01 01:00:41.827905: ENGINE getting next move from player 3
+2011-02-01 01:00:41.827957: ERROR: need more than 0 values to unpack
+2011-02-01 01:00:41.828726: TRACE: 
+Traceback (most recent call last):
+  File "engine.py", line 166, in next_move
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/temp3.py", line 150, in move
+    move = False, mid = playerData.wallmidpts, bad = []
+ValueError: need more than 0 values to unpack
+
+2011-02-01 01:00:41.828785: ENGINE invalidating player 3 because they made an invalid move.
+2011-02-01 01:00:41.828812: ENGINE detects all players are invalid they made invalid move(s).
+2011-02-01 01:00:41.828834: ENGINE finished with next move
+2011-02-01 01:00:44.354760: ENGINE shutting down

@@ -1,0 +1,22 @@
+2011-01-25 14:59:39.452900: ENGINE starting
+2011-01-25 14:59:39.453666: ENGINE loaded player module: player_p242-03q as player 0
+2011-01-25 14:59:39.453700: ENGINE initializing
+2011-01-25 14:59:39.453729: MODEL initializing
+2011-01-25 14:59:39.459921: MODEL reading board file: board.txt
+2011-01-25 14:59:39.460010: ENGINE initializing UI
+2011-01-25 14:59:39.460043: ENGINE UI initializing
+2011-01-25 14:59:40.041960: ENGINE calling each player.init() for player 0
+2011-01-25 14:59:40.042874: ERROR player 0 init function caused an exception: invalid literal for int() with base 10: ''
+2011-01-25 14:59:40.043581: TRACE:
+Traceback (most recent call last):
+  File "engine.py", line 116, in initialize
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/player_p242-03q.py", line 42, in init
+    return breakwalls(open(gameFile, 'r').read().split('\n'),board)
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/player_p242-03q.py", line 30, in breakwalls
+    [r1,c1,r2,c2] = [int(x) for x in item.split(' ')]
+ValueError: invalid literal for int() with base 10: ''
+
+2011-01-25 14:59:40.043620: ENGINE invalidating player 0 from error in init
+2011-01-25 14:59:40.043651: ENGINE detects all players are invalid from invalid initialization.
+2011-01-25 14:59:40.043703: ENGINE UI entering main loop
+2011-01-25 15:04:35.212677: ENGINE shutting down

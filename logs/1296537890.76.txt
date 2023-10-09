@@ -1,0 +1,950 @@
+2011-02-01 00:24:50.759421: ENGINE starting
+2011-02-01 00:24:50.760170: ENGINE loaded player module: player_p242-03q as player 0
+2011-02-01 00:24:50.760562: ENGINE loaded player module: player_badcomputer as player 1
+2011-02-01 00:24:50.761331: ENGINE loaded player module: player_badcomputer2 as player 2
+2011-02-01 00:24:50.764089: ENGINE loaded player module: player_badcomputer3 as player 3
+2011-02-01 00:24:50.764125: ENGINE initializing
+2011-02-01 00:24:50.764155: MODEL initializing
+2011-02-01 00:24:50.769749: MODEL reading board file: board.txt
+2011-02-01 00:24:50.769833: ENGINE initializing UI
+2011-02-01 00:24:50.769868: ENGINE UI initializing
+2011-02-01 00:24:51.470260: ENGINE calling each player.init() for player 0
+2011-02-01 00:24:51.471144: ENGINE calling each player.init() for player 1
+2011-02-01 00:24:51.471203: player.init called for player 1 File=board.txt, playerId=1, numPlayers=4, playerHomes=[(8, 4), (0, 4), (4, 0), (4, 8)], wallsRemaining=[10, 5]
+2011-02-01 00:24:51.471233: ENGINE calling each player.init() for player 2
+2011-02-01 00:24:51.471279: player.init called for player 2 File=board.txt, playerId=2, numPlayers=4, playerHomes=[(8, 4), (0, 4), (4, 0), (4, 8)], wallsRemaining=[10, 5]
+2011-02-01 00:24:51.471306: ENGINE calling each player.init() for player 3
+2011-02-01 00:24:51.471350: player.init called for player 3 File=board.txt, playerId=3, numPlayers=4, playerHomes=[(8, 4), (0, 4), (4, 0), (4, 8)], wallsRemaining=[10, 5]
+2011-02-01 00:24:51.471425: ENGINE UI entering main loop
+2011-02-01 00:24:52.475792: ENGINE advancing to move # 0
+2011-02-01 00:24:52.475848: ENGINE getting next move from player 0
+2011-02-01 00:24:52.498263: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (1, 6)
+	end: (1, 8)
+2011-02-01 00:24:52.501555: ENGINE has validated player 0's move
+2011-02-01 00:24:52.501600: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:52.501641: ENGINE notifying player 1 of last move
+2011-02-01 00:24:52.501918: ENGINE notifying player 2 of last move
+2011-02-01 00:24:52.502138: ENGINE notifying player 3 of last move
+2011-02-01 00:24:52.502350: ENGINE finished with next move
+2011-02-01 00:24:52.908421: ENGINE advancing to move # 1
+2011-02-01 00:24:52.908478: ENGINE getting next move from player 1
+2011-02-01 00:24:52.908528: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:24:52.908567: Player 1 is moving? False
+2011-02-01 00:24:52.911863: Player 1 is placing a wall at : [1, 3, 3, 3] after 1
+2011-02-01 00:24:52.911933: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: False
+	start: (1, 3)
+	end: (3, 3)
+2011-02-01 00:24:52.915126: ENGINE has validated player 1's move
+2011-02-01 00:24:52.915159: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:52.915199: ENGINE notifying player 0 of last move
+2011-02-01 00:24:52.915486: ENGINE notifying player 2 of last move
+2011-02-01 00:24:52.915698: ENGINE notifying player 3 of last move
+2011-02-01 00:24:52.915905: ENGINE finished with next move
+2011-02-01 00:24:53.324952: ENGINE advancing to move # 2
+2011-02-01 00:24:53.325009: ENGINE getting next move from player 2
+2011-02-01 00:24:53.325067: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:24:53.325106: Player 2 is moving? False
+2011-02-01 00:24:53.328480: Player 2 is placing a wall at : [1, 1, 1, 3] after 1
+2011-02-01 00:24:53.328553: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (1, 1)
+	end: (1, 3)
+2011-02-01 00:24:53.331773: ENGINE has validated player 2's move
+2011-02-01 00:24:53.331808: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:53.331847: ENGINE notifying player 0 of last move
+2011-02-01 00:24:53.332135: ENGINE notifying player 1 of last move
+2011-02-01 00:24:53.332351: ENGINE notifying player 3 of last move
+2011-02-01 00:24:53.332560: ENGINE finished with next move
+2011-02-01 00:24:53.641548: ENGINE advancing to move # 3
+2011-02-01 00:24:53.641603: ENGINE getting next move from player 3
+2011-02-01 00:24:53.641737: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:24:53.641777: Player 3 is moving? False
+2011-02-01 00:24:53.645023: Player 3 is placing a wall at : [8, 6, 8, 8] after 1
+2011-02-01 00:24:53.645088: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: False
+	start: (8, 6)
+	end: (8, 8)
+2011-02-01 00:24:53.648280: ENGINE has validated player 3's move
+2011-02-01 00:24:53.648313: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:53.648353: ENGINE notifying player 0 of last move
+2011-02-01 00:24:53.648634: ENGINE notifying player 1 of last move
+2011-02-01 00:24:53.648848: ENGINE notifying player 2 of last move
+2011-02-01 00:24:53.649054: ENGINE finished with next move
+2011-02-01 00:24:54.058235: ENGINE advancing to move # 4
+2011-02-01 00:24:54.058296: ENGINE getting next move from player 0
+2011-02-01 00:24:54.079418: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (6, 2)
+	end: (8, 2)
+2011-02-01 00:24:54.082683: ENGINE has validated player 0's move
+2011-02-01 00:24:54.082720: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:54.082761: ENGINE notifying player 1 of last move
+2011-02-01 00:24:54.083004: ENGINE notifying player 2 of last move
+2011-02-01 00:24:54.083221: ENGINE notifying player 3 of last move
+2011-02-01 00:24:54.083431: ENGINE finished with next move
+2011-02-01 00:24:54.478614: ENGINE advancing to move # 5
+2011-02-01 00:24:54.478671: ENGINE getting next move from player 1
+2011-02-01 00:24:54.478720: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:24:54.478760: Player 1 is moving? True
+2011-02-01 00:24:54.479537: Player 1 is at (0, 4) and is moving along shortest path: [(0, 4), (1, 4), (2, 4), (3, 4), (4, 4), (5, 4), (6, 4), (7, 4), (8, 4)]
+2011-02-01 00:24:54.479604: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (0, 4)
+	end: (1, 4)
+2011-02-01 00:24:54.479654: ENGINE has validated player 1's move
+2011-02-01 00:24:54.479683: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:54.479721: ENGINE notifying player 0 of last move
+2011-02-01 00:24:54.479973: ENGINE notifying player 2 of last move
+2011-02-01 00:24:54.480185: ENGINE notifying player 3 of last move
+2011-02-01 00:24:54.480391: ENGINE finished with next move
+2011-02-01 00:24:54.793207: ENGINE advancing to move # 6
+2011-02-01 00:24:54.793267: ENGINE getting next move from player 2
+2011-02-01 00:24:54.793316: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:24:54.793355: Player 2 is moving? False
+2011-02-01 00:24:54.793435: Player 2 cannot place wall: "MODEL error, wall can't be placed on border: [0, 0, 2, 0]"Number of attempts: 1 attempts
+2011-02-01 00:24:54.796685: Player 2 is placing a wall at : [2, 7, 2, 9] after 2
+2011-02-01 00:24:54.796754: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (2, 7)
+	end: (2, 9)
+2011-02-01 00:24:54.799954: ENGINE has validated player 2's move
+2011-02-01 00:24:54.799989: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:54.800028: ENGINE notifying player 0 of last move
+2011-02-01 00:24:54.800304: ENGINE notifying player 1 of last move
+2011-02-01 00:24:54.800521: ENGINE notifying player 3 of last move
+2011-02-01 00:24:54.800736: ENGINE finished with next move
+2011-02-01 00:24:55.241751: ENGINE advancing to move # 7
+2011-02-01 00:24:55.241810: ENGINE getting next move from player 3
+2011-02-01 00:24:55.241862: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:24:55.241900: Player 3 is moving? True
+2011-02-01 00:24:55.242685: Player 3 is at (4, 8) and is moving along shortest path: [(4, 8), (4, 7), (4, 6), (4, 5), (4, 4), (4, 3), (4, 2), (4, 1), (4, 0)]
+2011-02-01 00:24:55.242754: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (4, 8)
+	end: (4, 7)
+2011-02-01 00:24:55.242878: ENGINE has validated player 3's move
+2011-02-01 00:24:55.242908: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:55.242948: ENGINE notifying player 0 of last move
+2011-02-01 00:24:55.243203: ENGINE notifying player 1 of last move
+2011-02-01 00:24:55.243418: ENGINE notifying player 2 of last move
+2011-02-01 00:24:55.243629: ENGINE finished with next move
+2011-02-01 00:24:55.561290: ENGINE advancing to move # 8
+2011-02-01 00:24:55.561352: ENGINE getting next move from player 0
+2011-02-01 00:24:55.603282: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (3, 2)
+	end: (5, 2)
+2011-02-01 00:24:55.606528: ENGINE has validated player 0's move
+2011-02-01 00:24:55.606568: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:55.606612: ENGINE notifying player 1 of last move
+2011-02-01 00:24:55.606844: ENGINE notifying player 2 of last move
+2011-02-01 00:24:55.607065: ENGINE notifying player 3 of last move
+2011-02-01 00:24:55.607281: ENGINE finished with next move
+2011-02-01 00:24:55.996180: ENGINE advancing to move # 9
+2011-02-01 00:24:55.996238: ENGINE getting next move from player 1
+2011-02-01 00:24:55.996287: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:24:55.996324: Player 1 is moving? True
+2011-02-01 00:24:55.997068: Player 1 is at (1, 4) and is moving along shortest path: [(1, 4), (2, 4), (3, 4), (4, 4), (5, 4), (6, 4), (7, 4), (8, 4)]
+2011-02-01 00:24:55.997132: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (1, 4)
+	end: (2, 4)
+2011-02-01 00:24:55.997183: ENGINE has validated player 1's move
+2011-02-01 00:24:55.997210: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:55.997248: ENGINE notifying player 0 of last move
+2011-02-01 00:24:55.997497: ENGINE notifying player 2 of last move
+2011-02-01 00:24:55.997719: ENGINE notifying player 3 of last move
+2011-02-01 00:24:55.997932: ENGINE finished with next move
+2011-02-01 00:24:56.340761: ENGINE advancing to move # 10
+2011-02-01 00:24:56.340823: ENGINE getting next move from player 2
+2011-02-01 00:24:56.340873: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:24:56.340912: Player 2 is moving? False
+2011-02-01 00:24:56.344134: Player 2 is placing a wall at : [3, 3, 3, 5] after 1
+2011-02-01 00:24:56.344201: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (3, 3)
+	end: (3, 5)
+2011-02-01 00:24:56.347347: ENGINE has validated player 2's move
+2011-02-01 00:24:56.347379: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:56.347418: ENGINE notifying player 0 of last move
+2011-02-01 00:24:56.347699: ENGINE notifying player 1 of last move
+2011-02-01 00:24:56.347917: ENGINE notifying player 3 of last move
+2011-02-01 00:24:56.348125: ENGINE finished with next move
+2011-02-01 00:24:56.756849: ENGINE advancing to move # 11
+2011-02-01 00:24:56.756907: ENGINE getting next move from player 3
+2011-02-01 00:24:56.756957: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:24:56.756995: Player 3 is moving? False
+2011-02-01 00:24:56.757079: Player 3 cannot place wall: 'MODEL error, wall coordinate out of range: [8, 0, 10, 0]'Number of attempts: 1 attempts
+2011-02-01 00:24:56.757155: Player 3 cannot place wall: 'MODEL error, wall has already been placed: [8, 6, 8, 8]'Number of attempts: 2 attempts
+2011-02-01 00:24:56.760372: Player 3 is placing a wall at : [7, 3, 7, 5] after 3
+2011-02-01 00:24:56.760444: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: False
+	start: (7, 3)
+	end: (7, 5)
+2011-02-01 00:24:56.763605: ENGINE has validated player 3's move
+2011-02-01 00:24:56.763638: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:56.763678: ENGINE notifying player 0 of last move
+2011-02-01 00:24:56.763959: ENGINE notifying player 1 of last move
+2011-02-01 00:24:56.764176: ENGINE notifying player 2 of last move
+2011-02-01 00:24:56.764456: ENGINE finished with next move
+2011-02-01 00:24:57.191094: ENGINE advancing to move # 12
+2011-02-01 00:24:57.191153: ENGINE getting next move from player 0
+2011-02-01 00:24:57.211968: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (6, 5)
+	end: (8, 5)
+2011-02-01 00:24:57.215183: ENGINE has validated player 0's move
+2011-02-01 00:24:57.215218: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:57.215259: ENGINE notifying player 1 of last move
+2011-02-01 00:24:57.215498: ENGINE notifying player 2 of last move
+2011-02-01 00:24:57.215716: ENGINE notifying player 3 of last move
+2011-02-01 00:24:57.215933: ENGINE finished with next move
+2011-02-01 00:24:57.521059: ENGINE advancing to move # 13
+2011-02-01 00:24:57.521121: ENGINE getting next move from player 1
+2011-02-01 00:24:57.521170: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:24:57.521208: Player 1 is moving? True
+2011-02-01 00:24:57.521882: Player 1 is at (2, 4) and is moving along shortest path: [(2, 4), (2, 5), (3, 5), (4, 5), (5, 5), (6, 5), (7, 5), (8, 5)]
+2011-02-01 00:24:57.521950: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (2, 4)
+	end: (2, 5)
+2011-02-01 00:24:57.522002: ENGINE has validated player 1's move
+2011-02-01 00:24:57.522031: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:57.522070: ENGINE notifying player 0 of last move
+2011-02-01 00:24:57.522328: ENGINE notifying player 2 of last move
+2011-02-01 00:24:57.522544: ENGINE notifying player 3 of last move
+2011-02-01 00:24:57.522757: ENGINE finished with next move
+2011-02-01 00:24:57.859994: ENGINE advancing to move # 14
+2011-02-01 00:24:57.860052: ENGINE getting next move from player 2
+2011-02-01 00:24:57.860101: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:24:57.860138: Player 2 is moving? True
+2011-02-01 00:24:57.860897: Player 2 is at (4, 0) and is moving along shortest path: [(4, 0), (4, 1), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8)]
+2011-02-01 00:24:57.860964: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (4, 0)
+	end: (4, 1)
+2011-02-01 00:24:57.861015: ENGINE has validated player 2's move
+2011-02-01 00:24:57.861043: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:57.861082: ENGINE notifying player 0 of last move
+2011-02-01 00:24:57.861333: ENGINE notifying player 1 of last move
+2011-02-01 00:24:57.861550: ENGINE notifying player 3 of last move
+2011-02-01 00:24:57.861760: ENGINE finished with next move
+2011-02-01 00:24:58.193113: ENGINE advancing to move # 15
+2011-02-01 00:24:58.193170: ENGINE getting next move from player 3
+2011-02-01 00:24:58.193220: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:24:58.193257: Player 3 is moving? False
+2011-02-01 00:24:58.196552: Player 3 is placing a wall at : [2, 8, 4, 8] after 1
+2011-02-01 00:24:58.196622: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: False
+	start: (2, 8)
+	end: (4, 8)
+2011-02-01 00:24:58.199791: ENGINE has validated player 3's move
+2011-02-01 00:24:58.199823: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:58.199862: ENGINE notifying player 0 of last move
+2011-02-01 00:24:58.200147: ENGINE notifying player 1 of last move
+2011-02-01 00:24:58.200363: ENGINE notifying player 2 of last move
+2011-02-01 00:24:58.200574: ENGINE finished with next move
+2011-02-01 00:24:58.640619: ENGINE advancing to move # 16
+2011-02-01 00:24:58.640678: ENGINE getting next move from player 0
+2011-02-01 00:24:58.667480: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (4, 4)
+	end: (4, 6)
+2011-02-01 00:24:58.670719: ENGINE has validated player 0's move
+2011-02-01 00:24:58.670757: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:58.670798: ENGINE notifying player 1 of last move
+2011-02-01 00:24:58.671112: ENGINE notifying player 2 of last move
+2011-02-01 00:24:58.671330: ENGINE notifying player 3 of last move
+2011-02-01 00:24:58.671541: ENGINE finished with next move
+2011-02-01 00:24:59.072657: ENGINE advancing to move # 17
+2011-02-01 00:24:59.072717: ENGINE getting next move from player 1
+2011-02-01 00:24:59.072768: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:24:59.072806: Player 1 is moving? True
+2011-02-01 00:24:59.073584: Player 1 is at (2, 5) and is moving along shortest path: [(2, 5), (2, 6), (3, 6), (4, 6), (5, 6), (5, 5), (6, 5), (7, 5), (8, 5)]
+2011-02-01 00:24:59.073651: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (2, 5)
+	end: (2, 6)
+2011-02-01 00:24:59.073703: ENGINE has validated player 1's move
+2011-02-01 00:24:59.073731: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:59.073770: ENGINE notifying player 0 of last move
+2011-02-01 00:24:59.074020: ENGINE notifying player 2 of last move
+2011-02-01 00:24:59.074235: ENGINE notifying player 3 of last move
+2011-02-01 00:24:59.074444: ENGINE finished with next move
+2011-02-01 00:24:59.394352: ENGINE advancing to move # 18
+2011-02-01 00:24:59.394411: ENGINE getting next move from player 2
+2011-02-01 00:24:59.394460: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:24:59.394498: Player 2 is moving? False
+2011-02-01 00:24:59.394598: Player 2 cannot place wall: 'MODEL error, wall [0, 7, 2, 7] overlaps with valid wall [1, 6, 1, 8]'Number of attempts: 1 attempts
+2011-02-01 00:24:59.394702: Player 2 cannot place wall: 'MODEL error, wall [7, 4, 7, 6] overlaps with valid wall [7, 3, 7, 5]'Number of attempts: 2 attempts
+2011-02-01 00:24:59.397865: Player 2 is placing a wall at : [5, 4, 5, 6] after 3
+2011-02-01 00:24:59.397934: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (5, 4)
+	end: (5, 6)
+2011-02-01 00:24:59.401071: ENGINE has validated player 2's move
+2011-02-01 00:24:59.401105: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:59.401145: ENGINE notifying player 0 of last move
+2011-02-01 00:24:59.401436: ENGINE notifying player 1 of last move
+2011-02-01 00:24:59.401663: ENGINE notifying player 3 of last move
+2011-02-01 00:24:59.401874: ENGINE finished with next move
+2011-02-01 00:24:59.713115: ENGINE advancing to move # 19
+2011-02-01 00:24:59.713172: ENGINE getting next move from player 3
+2011-02-01 00:24:59.713221: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:24:59.713260: Player 3 is moving? True
+2011-02-01 00:24:59.714056: Player 3 is at (4, 7) and is moving along shortest path: [(4, 7), (5, 7), (5, 6), (5, 5), (5, 4), (5, 3), (5, 2), (5, 1), (5, 0)]
+2011-02-01 00:24:59.714124: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (4, 7)
+	end: (5, 7)
+2011-02-01 00:24:59.714177: ENGINE has validated player 3's move
+2011-02-01 00:24:59.714205: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:24:59.714244: ENGINE notifying player 0 of last move
+2011-02-01 00:24:59.714495: ENGINE notifying player 1 of last move
+2011-02-01 00:24:59.714711: ENGINE notifying player 2 of last move
+2011-02-01 00:24:59.714921: ENGINE finished with next move
+2011-02-01 00:25:00.042342: ENGINE advancing to move # 20
+2011-02-01 00:25:00.042400: ENGINE getting next move from player 0
+2011-02-01 00:25:00.051158: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (8, 4)
+	end: (8, 5)
+2011-02-01 00:25:00.051225: ENGINE has validated player 0's move
+2011-02-01 00:25:00.051256: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:00.051296: ENGINE notifying player 1 of last move
+2011-02-01 00:25:00.051544: ENGINE notifying player 2 of last move
+2011-02-01 00:25:00.051759: ENGINE notifying player 3 of last move
+2011-02-01 00:25:00.051969: ENGINE finished with next move
+2011-02-01 00:25:00.361814: ENGINE advancing to move # 21
+2011-02-01 00:25:00.361872: ENGINE getting next move from player 1
+2011-02-01 00:25:00.361922: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:00.361960: Player 1 is moving? False
+2011-02-01 00:25:00.365181: Player 1 is placing a wall at : [4, 3, 6, 3] after 1
+2011-02-01 00:25:00.365247: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: False
+	start: (4, 3)
+	end: (6, 3)
+2011-02-01 00:25:00.368442: ENGINE has validated player 1's move
+2011-02-01 00:25:00.368476: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:00.368517: ENGINE notifying player 0 of last move
+2011-02-01 00:25:00.368803: ENGINE notifying player 2 of last move
+2011-02-01 00:25:00.369020: ENGINE notifying player 3 of last move
+2011-02-01 00:25:00.369232: ENGINE finished with next move
+2011-02-01 00:25:00.799128: ENGINE advancing to move # 22
+2011-02-01 00:25:00.799187: ENGINE getting next move from player 2
+2011-02-01 00:25:00.799236: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:00.799275: Player 2 is moving? True
+2011-02-01 00:25:00.800132: Player 2 is at (4, 1) and is moving along shortest path: [(4, 1), (5, 1), (5, 2), (6, 2), (6, 3), (6, 4), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8)]
+2011-02-01 00:25:00.800198: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (4, 1)
+	end: (5, 1)
+2011-02-01 00:25:00.800250: ENGINE has validated player 2's move
+2011-02-01 00:25:00.800277: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:00.800315: ENGINE notifying player 0 of last move
+2011-02-01 00:25:00.800576: ENGINE notifying player 1 of last move
+2011-02-01 00:25:00.800804: ENGINE notifying player 3 of last move
+2011-02-01 00:25:00.801017: ENGINE finished with next move
+2011-02-01 00:25:01.144233: ENGINE advancing to move # 23
+2011-02-01 00:25:01.144294: ENGINE getting next move from player 3
+2011-02-01 00:25:01.144343: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:01.144381: Player 3 is moving? False
+2011-02-01 00:25:01.144463: Player 3 cannot place wall: "MODEL error, wall can't be placed on border: [0, 0, 0, 2]"Number of attempts: 1 attempts
+2011-02-01 00:25:01.147655: Player 3 is placing a wall at : [8, 1, 8, 3] after 2
+2011-02-01 00:25:01.147725: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: False
+	start: (8, 1)
+	end: (8, 3)
+2011-02-01 00:25:01.150897: ENGINE has validated player 3's move
+2011-02-01 00:25:01.150932: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:01.150971: ENGINE notifying player 0 of last move
+2011-02-01 00:25:01.151247: ENGINE notifying player 1 of last move
+2011-02-01 00:25:01.151462: ENGINE notifying player 2 of last move
+2011-02-01 00:25:01.151671: ENGINE finished with next move
+2011-02-01 00:25:01.462060: ENGINE advancing to move # 24
+2011-02-01 00:25:01.462120: ENGINE getting next move from player 0
+2011-02-01 00:25:01.470771: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (8, 5)
+	end: (7, 5)
+2011-02-01 00:25:01.470835: ENGINE has validated player 0's move
+2011-02-01 00:25:01.470866: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:01.470905: ENGINE notifying player 1 of last move
+2011-02-01 00:25:01.471151: ENGINE notifying player 2 of last move
+2011-02-01 00:25:01.471366: ENGINE notifying player 3 of last move
+2011-02-01 00:25:01.471586: ENGINE finished with next move
+2011-02-01 00:25:01.793620: ENGINE advancing to move # 25
+2011-02-01 00:25:01.793676: ENGINE getting next move from player 1
+2011-02-01 00:25:01.793725: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:01.793763: Player 1 is moving? True
+2011-02-01 00:25:01.794457: Player 1 is at (2, 6) and is moving along shortest path: [(2, 6), (3, 6), (4, 6), (5, 6), (5, 5), (6, 5), (7, 5), (8, 5)]
+2011-02-01 00:25:01.794593: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (2, 6)
+	end: (3, 6)
+2011-02-01 00:25:01.794646: ENGINE has validated player 1's move
+2011-02-01 00:25:01.794675: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:01.794713: ENGINE notifying player 0 of last move
+2011-02-01 00:25:01.794967: ENGINE notifying player 2 of last move
+2011-02-01 00:25:01.795184: ENGINE notifying player 3 of last move
+2011-02-01 00:25:01.795394: ENGINE finished with next move
+2011-02-01 00:25:02.142905: ENGINE advancing to move # 26
+2011-02-01 00:25:02.142962: ENGINE getting next move from player 2
+2011-02-01 00:25:02.143009: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:02.143047: Player 2 is moving? False
+2011-02-01 00:25:02.146247: Player 2 is placing a wall at : [7, 5, 7, 7] after 1
+2011-02-01 00:25:02.146311: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: False
+	start: (7, 5)
+	end: (7, 7)
+2011-02-01 00:25:02.150001: ENGINE has validated player 2's move
+2011-02-01 00:25:02.150042: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:02.150082: ENGINE notifying player 0 of last move
+2011-02-01 00:25:02.150379: ENGINE notifying player 1 of last move
+2011-02-01 00:25:02.150651: ENGINE notifying player 3 of last move
+2011-02-01 00:25:02.150860: ENGINE finished with next move
+2011-02-01 00:25:02.572877: ENGINE advancing to move # 27
+2011-02-01 00:25:02.572936: ENGINE getting next move from player 3
+2011-02-01 00:25:02.572988: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:02.573029: Player 3 is moving? False
+2011-02-01 00:25:02.576250: Player 3 is placing a wall at : [1, 7, 3, 7] after 1
+2011-02-01 00:25:02.576333: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: False
+	start: (1, 7)
+	end: (3, 7)
+2011-02-01 00:25:02.579406: ENGINE has validated player 3's move
+2011-02-01 00:25:02.579443: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:02.579486: ENGINE notifying player 0 of last move
+2011-02-01 00:25:02.579777: ENGINE notifying player 1 of last move
+2011-02-01 00:25:02.579995: ENGINE notifying player 2 of last move
+2011-02-01 00:25:02.580205: ENGINE finished with next move
+2011-02-01 00:25:03.009288: ENGINE advancing to move # 28
+2011-02-01 00:25:03.009344: ENGINE getting next move from player 0
+2011-02-01 00:25:03.020695: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (7, 5)
+	end: (7, 6)
+2011-02-01 00:25:03.020799: ENGINE has validated player 0's move
+2011-02-01 00:25:03.020833: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:03.020874: ENGINE notifying player 1 of last move
+2011-02-01 00:25:03.021142: ENGINE notifying player 2 of last move
+2011-02-01 00:25:03.021356: ENGINE notifying player 3 of last move
+2011-02-01 00:25:03.021771: ENGINE finished with next move
+2011-02-01 00:25:03.331617: ENGINE advancing to move # 29
+2011-02-01 00:25:03.331673: ENGINE getting next move from player 1
+2011-02-01 00:25:03.331723: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:03.331761: Player 1 is moving? False
+2011-02-01 00:25:03.331904: Player 1 cannot place wall: 'MODEL error, wall [7, 6, 7, 8] overlaps with valid wall [7, 5, 7, 7]'Number of attempts: 1 attempts
+2011-02-01 00:25:03.335032: Player 1 is placing a wall at : [6, 0, 6, 2] after 2
+2011-02-01 00:25:03.335103: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: False
+	start: (6, 0)
+	end: (6, 2)
+2011-02-01 00:25:03.338196: ENGINE has validated player 1's move
+2011-02-01 00:25:03.338259: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:03.338303: ENGINE notifying player 0 of last move
+2011-02-01 00:25:03.338609: ENGINE notifying player 2 of last move
+2011-02-01 00:25:03.338830: ENGINE notifying player 3 of last move
+2011-02-01 00:25:03.339041: ENGINE finished with next move
+2011-02-01 00:25:03.665198: ENGINE advancing to move # 30
+2011-02-01 00:25:03.665256: ENGINE getting next move from player 2
+2011-02-01 00:25:03.665303: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:03.665340: Player 2 is moving? False
+2011-02-01 00:25:03.666115: Player 2 is at (5, 1) and is moving along shortest path: [(5, 1), (5, 2), (6, 2), (6, 3), (6, 4), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8)]
+2011-02-01 00:25:03.666180: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (5, 1)
+	end: (5, 2)
+2011-02-01 00:25:03.666233: ENGINE has validated player 2's move
+2011-02-01 00:25:03.666261: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:03.666299: ENGINE notifying player 0 of last move
+2011-02-01 00:25:03.666566: ENGINE notifying player 1 of last move
+2011-02-01 00:25:03.666780: ENGINE notifying player 3 of last move
+2011-02-01 00:25:03.666987: ENGINE finished with next move
+2011-02-01 00:25:03.994866: ENGINE advancing to move # 31
+2011-02-01 00:25:03.994933: ENGINE getting next move from player 3
+2011-02-01 00:25:03.994983: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:03.995022: Player 3 is moving? True
+2011-02-01 00:25:03.995773: Player 3 is at (5, 7) and is moving along shortest path: [(5, 7), (5, 6), (5, 5), (5, 4), (6, 4), (6, 3), (6, 2), (5, 2), (5, 1), (5, 0)]
+2011-02-01 00:25:03.995848: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (5, 7)
+	end: (5, 6)
+2011-02-01 00:25:03.995900: ENGINE has validated player 3's move
+2011-02-01 00:25:03.995928: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:03.995967: ENGINE notifying player 0 of last move
+2011-02-01 00:25:03.996221: ENGINE notifying player 1 of last move
+2011-02-01 00:25:03.996440: ENGINE notifying player 2 of last move
+2011-02-01 00:25:03.996653: ENGINE finished with next move
+2011-02-01 00:25:04.346336: ENGINE advancing to move # 32
+2011-02-01 00:25:04.346393: ENGINE getting next move from player 0
+2011-02-01 00:25:04.355031: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (7, 6)
+	end: (7, 7)
+2011-02-01 00:25:04.355116: ENGINE has validated player 0's move
+2011-02-01 00:25:04.355150: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:04.355191: ENGINE notifying player 1 of last move
+2011-02-01 00:25:04.355440: ENGINE notifying player 2 of last move
+2011-02-01 00:25:04.355657: ENGINE notifying player 3 of last move
+2011-02-01 00:25:04.355868: ENGINE finished with next move
+2011-02-01 00:25:04.658637: ENGINE advancing to move # 33
+2011-02-01 00:25:04.658696: ENGINE getting next move from player 1
+2011-02-01 00:25:04.658745: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:04.658782: Player 1 is moving? True
+2011-02-01 00:25:04.659417: Player 1 is at (3, 6) and is moving along shortest path: [(3, 6), (3, 7), (4, 7), (5, 7), (6, 7), (6, 8), (7, 8), (8, 8)]
+2011-02-01 00:25:04.659482: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (3, 6)
+	end: (3, 7)
+2011-02-01 00:25:04.659532: ENGINE has validated player 1's move
+2011-02-01 00:25:04.659561: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:04.659600: ENGINE notifying player 0 of last move
+2011-02-01 00:25:04.659851: ENGINE notifying player 2 of last move
+2011-02-01 00:25:04.660065: ENGINE notifying player 3 of last move
+2011-02-01 00:25:04.660275: ENGINE finished with next move
+2011-02-01 00:25:04.963808: ENGINE advancing to move # 34
+2011-02-01 00:25:04.963866: ENGINE getting next move from player 2
+2011-02-01 00:25:04.963916: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:04.963954: Player 2 is moving? False
+2011-02-01 00:25:04.964700: Player 2 is at (5, 2) and is moving along shortest path: [(5, 2), (6, 2), (6, 3), (6, 4), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8)]
+2011-02-01 00:25:04.964835: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (5, 2)
+	end: (6, 2)
+2011-02-01 00:25:04.964889: ENGINE has validated player 2's move
+2011-02-01 00:25:04.964918: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:04.964958: ENGINE notifying player 0 of last move
+2011-02-01 00:25:04.965230: ENGINE notifying player 1 of last move
+2011-02-01 00:25:04.965447: ENGINE notifying player 3 of last move
+2011-02-01 00:25:04.965657: ENGINE finished with next move
+2011-02-01 00:25:05.310626: ENGINE advancing to move # 35
+2011-02-01 00:25:05.310683: ENGINE getting next move from player 3
+2011-02-01 00:25:05.310732: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:05.310769: Player 3 is moving? True
+2011-02-01 00:25:05.311485: Player 3 is at (5, 6) and is moving along shortest path: [(5, 6), (5, 5), (5, 4), (6, 4), (6, 3), (6, 2), (5, 2), (5, 1), (5, 0)]
+2011-02-01 00:25:05.311552: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (5, 6)
+	end: (5, 5)
+2011-02-01 00:25:05.311604: ENGINE has validated player 3's move
+2011-02-01 00:25:05.311633: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:05.311671: ENGINE notifying player 0 of last move
+2011-02-01 00:25:05.311922: ENGINE notifying player 1 of last move
+2011-02-01 00:25:05.312134: ENGINE notifying player 2 of last move
+2011-02-01 00:25:05.312343: ENGINE finished with next move
+2011-02-01 00:25:05.655558: ENGINE advancing to move # 36
+2011-02-01 00:25:05.655617: ENGINE getting next move from player 0
+2011-02-01 00:25:05.664001: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (7, 7)
+	end: (6, 7)
+2011-02-01 00:25:05.664067: ENGINE has validated player 0's move
+2011-02-01 00:25:05.664099: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:05.664139: ENGINE notifying player 1 of last move
+2011-02-01 00:25:05.664385: ENGINE notifying player 2 of last move
+2011-02-01 00:25:05.664597: ENGINE notifying player 3 of last move
+2011-02-01 00:25:05.664818: ENGINE finished with next move
+2011-02-01 00:25:05.994659: ENGINE advancing to move # 37
+2011-02-01 00:25:05.994714: ENGINE getting next move from player 1
+2011-02-01 00:25:05.994763: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:05.994801: Player 1 is moving? False
+2011-02-01 00:25:05.994934: Player 1 cannot place wall: 'MODEL error, wall [3, 5, 5, 5] overlaps with valid wall [4, 4, 4, 6]'Number of attempts: 1 attempts
+2011-02-01 00:25:05.995050: Player 1 cannot place wall: 'MODEL error, wall [5, 2, 5, 4] overlaps with valid wall [4, 3, 6, 3]'Number of attempts: 2 attempts
+2011-02-01 00:25:05.995136: Player 1 cannot place wall: 'MODEL error, wall [7, 7, 9, 7] overlaps with valid wall [8, 6, 8, 8]'Number of attempts: 3 attempts
+2011-02-01 00:25:05.995201: Player 1 cannot place wall: 'MODEL error, wall coordinate out of range: [8, 4, 10, 4]'Number of attempts: 4 attempts
+2011-02-01 00:25:05.998282: Player 1 is placing a wall at : [4, 8, 6, 8] after 5
+2011-02-01 00:25:05.998353: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: False
+	start: (4, 8)
+	end: (6, 8)
+2011-02-01 00:25:06.001386: ENGINE has validated player 1's move
+2011-02-01 00:25:06.001419: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:06.001459: ENGINE notifying player 0 of last move
+2011-02-01 00:25:06.001738: ENGINE notifying player 2 of last move
+2011-02-01 00:25:06.001955: ENGINE notifying player 3 of last move
+2011-02-01 00:25:06.002166: ENGINE finished with next move
+2011-02-01 00:25:06.328968: ENGINE advancing to move # 38
+2011-02-01 00:25:06.329027: ENGINE getting next move from player 2
+2011-02-01 00:25:06.329076: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:06.329114: Player 2 is moving? False
+2011-02-01 00:25:06.329782: Player 2 is at (6, 2) and is moving along shortest path: [(6, 2), (6, 3), (6, 4), (5, 4), (5, 5), (5, 6), (5, 7), (6, 7), (6, 8)]
+2011-02-01 00:25:06.329919: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (6, 2)
+	end: (6, 3)
+2011-02-01 00:25:06.329972: ENGINE has validated player 2's move
+2011-02-01 00:25:06.330001: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:06.330040: ENGINE notifying player 0 of last move
+2011-02-01 00:25:06.330289: ENGINE notifying player 1 of last move
+2011-02-01 00:25:06.330504: ENGINE notifying player 3 of last move
+2011-02-01 00:25:06.330714: ENGINE finished with next move
+2011-02-01 00:25:06.659413: ENGINE advancing to move # 39
+2011-02-01 00:25:06.659470: ENGINE getting next move from player 3
+2011-02-01 00:25:06.659519: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:06.659557: Player 3 is moving? True
+2011-02-01 00:25:06.660209: Player 3 is at (5, 5) and is moving along shortest path: [(5, 5), (5, 4), (6, 4), (6, 3), (6, 2), (5, 2), (5, 1), (5, 0)]
+2011-02-01 00:25:06.660273: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (5, 5)
+	end: (5, 4)
+2011-02-01 00:25:06.660323: ENGINE has validated player 3's move
+2011-02-01 00:25:06.660352: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:06.660390: ENGINE notifying player 0 of last move
+2011-02-01 00:25:06.660637: ENGINE notifying player 1 of last move
+2011-02-01 00:25:06.660861: ENGINE notifying player 2 of last move
+2011-02-01 00:25:06.661070: ENGINE finished with next move
+2011-02-01 00:25:06.993626: ENGINE advancing to move # 40
+2011-02-01 00:25:06.993684: ENGINE getting next move from player 0
+2011-02-01 00:25:07.001947: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (6, 7)
+	end: (5, 7)
+2011-02-01 00:25:07.002013: ENGINE has validated player 0's move
+2011-02-01 00:25:07.002044: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:07.002086: ENGINE notifying player 1 of last move
+2011-02-01 00:25:07.002343: ENGINE notifying player 2 of last move
+2011-02-01 00:25:07.002563: ENGINE notifying player 3 of last move
+2011-02-01 00:25:07.002777: ENGINE finished with next move
+2011-02-01 00:25:07.328023: ENGINE advancing to move # 41
+2011-02-01 00:25:07.328081: ENGINE getting next move from player 1
+2011-02-01 00:25:07.328130: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:07.328168: Player 1 is moving? False
+2011-02-01 00:25:07.328249: Player 1 cannot place wall: "MODEL error, wall can't be placed on border: [1, 0, 3, 0]"Number of attempts: 1 attempts
+2011-02-01 00:25:07.331306: Player 1 is placing a wall at : [5, 1, 5, 3] after 2
+2011-02-01 00:25:07.331384: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: False
+	start: (5, 1)
+	end: (5, 3)
+2011-02-01 00:25:07.334387: ENGINE has validated player 1's move
+2011-02-01 00:25:07.334421: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:07.334460: ENGINE notifying player 0 of last move
+2011-02-01 00:25:07.334750: ENGINE notifying player 2 of last move
+2011-02-01 00:25:07.334968: ENGINE notifying player 3 of last move
+2011-02-01 00:25:07.335186: ENGINE finished with next move
+2011-02-01 00:25:07.645738: ENGINE advancing to move # 42
+2011-02-01 00:25:07.645796: ENGINE getting next move from player 2
+2011-02-01 00:25:07.645846: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:07.645884: Player 2 is moving? False
+2011-02-01 00:25:07.646455: Player 2 is at (6, 3) and is moving along shortest path: [(6, 3), (6, 4), (5, 4), (5, 5), (5, 6), (5, 7), (6, 7), (6, 8)]
+2011-02-01 00:25:07.646521: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (6, 3)
+	end: (6, 4)
+2011-02-01 00:25:07.646573: ENGINE has validated player 2's move
+2011-02-01 00:25:07.646600: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:07.647099: ENGINE notifying player 0 of last move
+2011-02-01 00:25:07.647358: ENGINE notifying player 1 of last move
+2011-02-01 00:25:07.647576: ENGINE notifying player 3 of last move
+2011-02-01 00:25:07.647788: ENGINE finished with next move
+2011-02-01 00:25:07.992299: ENGINE advancing to move # 43
+2011-02-01 00:25:07.992356: ENGINE getting next move from player 3
+2011-02-01 00:25:07.992406: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:07.992445: Player 3 is moving? True
+2011-02-01 00:25:07.992917: Player 3 is at (5, 4) and is moving along shortest path: [(5, 4), (6, 4), (6, 3), (6, 2), (5, 2), (5, 1), (5, 0)]
+2011-02-01 00:25:07.992981: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (5, 4)
+	end: (6, 3)
+2011-02-01 00:25:07.993043: ENGINE has validated player 3's move
+2011-02-01 00:25:07.993071: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:07.993109: ENGINE notifying player 0 of last move
+2011-02-01 00:25:07.993367: ENGINE notifying player 1 of last move
+2011-02-01 00:25:07.993580: ENGINE notifying player 2 of last move
+2011-02-01 00:25:07.993797: ENGINE finished with next move
+2011-02-01 00:25:08.328758: ENGINE advancing to move # 44
+2011-02-01 00:25:08.328816: ENGINE getting next move from player 0
+2011-02-01 00:25:08.336953: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (5, 7)
+	end: (5, 6)
+2011-02-01 00:25:08.337040: ENGINE has validated player 0's move
+2011-02-01 00:25:08.337073: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:08.337113: ENGINE notifying player 1 of last move
+2011-02-01 00:25:08.337376: ENGINE notifying player 2 of last move
+2011-02-01 00:25:08.337594: ENGINE notifying player 3 of last move
+2011-02-01 00:25:08.337806: ENGINE finished with next move
+2011-02-01 00:25:08.660393: ENGINE advancing to move # 45
+2011-02-01 00:25:08.660450: ENGINE getting next move from player 1
+2011-02-01 00:25:08.660499: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:08.660538: Player 1 is moving? True
+2011-02-01 00:25:08.661037: Player 1 is at (3, 7) and is moving along shortest path: [(3, 7), (4, 7), (5, 7), (6, 7), (6, 8), (7, 8), (8, 8)]
+2011-02-01 00:25:08.661101: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (3, 7)
+	end: (4, 7)
+2011-02-01 00:25:08.661153: ENGINE has validated player 1's move
+2011-02-01 00:25:08.661182: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:08.661221: ENGINE notifying player 0 of last move
+2011-02-01 00:25:08.661490: ENGINE notifying player 2 of last move
+2011-02-01 00:25:08.661709: ENGINE notifying player 3 of last move
+2011-02-01 00:25:08.661920: ENGINE finished with next move
+2011-02-01 00:25:08.980495: ENGINE advancing to move # 46
+2011-02-01 00:25:08.980555: ENGINE getting next move from player 2
+2011-02-01 00:25:08.980606: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:08.980646: Player 2 is moving? True
+2011-02-01 00:25:08.981148: Player 2 is at (6, 4) and is moving along shortest path: [(6, 4), (5, 4), (5, 5), (5, 6), (5, 7), (6, 7), (6, 8)]
+2011-02-01 00:25:08.981213: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (6, 4)
+	end: (5, 4)
+2011-02-01 00:25:08.981266: ENGINE has validated player 2's move
+2011-02-01 00:25:08.981295: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:08.981334: ENGINE notifying player 0 of last move
+2011-02-01 00:25:08.981589: ENGINE notifying player 1 of last move
+2011-02-01 00:25:08.981809: ENGINE notifying player 3 of last move
+2011-02-01 00:25:08.982017: ENGINE finished with next move
+2011-02-01 00:25:09.325085: ENGINE advancing to move # 47
+2011-02-01 00:25:09.325142: ENGINE getting next move from player 3
+2011-02-01 00:25:09.325190: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:09.325301: Player 3 is moving? False
+2011-02-01 00:25:09.325594: Player 3 is at (6, 3) and is moving along shortest path: [(6, 3), (6, 2), (5, 2), (5, 1), (5, 0)]
+2011-02-01 00:25:09.325657: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (6, 3)
+	end: (6, 2)
+2011-02-01 00:25:09.325707: ENGINE has validated player 3's move
+2011-02-01 00:25:09.325736: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:09.325774: ENGINE notifying player 0 of last move
+2011-02-01 00:25:09.326020: ENGINE notifying player 1 of last move
+2011-02-01 00:25:09.326229: ENGINE notifying player 2 of last move
+2011-02-01 00:25:09.326435: ENGINE finished with next move
+2011-02-01 00:25:09.659264: ENGINE advancing to move # 48
+2011-02-01 00:25:09.659321: ENGINE getting next move from player 0
+2011-02-01 00:25:09.667323: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (5, 6)
+	end: (4, 6)
+2011-02-01 00:25:09.667394: ENGINE has validated player 0's move
+2011-02-01 00:25:09.667426: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:09.667471: ENGINE notifying player 1 of last move
+2011-02-01 00:25:09.667717: ENGINE notifying player 2 of last move
+2011-02-01 00:25:09.667932: ENGINE notifying player 3 of last move
+2011-02-01 00:25:09.668149: ENGINE finished with next move
+2011-02-01 00:25:09.991429: ENGINE advancing to move # 49
+2011-02-01 00:25:09.991487: ENGINE getting next move from player 1
+2011-02-01 00:25:09.991536: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:09.991575: Player 1 is moving? True
+2011-02-01 00:25:09.992031: Player 1 is at (4, 7) and is moving along shortest path: [(4, 7), (5, 7), (6, 7), (6, 8), (7, 8), (8, 8)]
+2011-02-01 00:25:09.992096: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (4, 7)
+	end: (5, 7)
+2011-02-01 00:25:09.992148: ENGINE has validated player 1's move
+2011-02-01 00:25:09.992176: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:09.992215: ENGINE notifying player 0 of last move
+2011-02-01 00:25:09.992467: ENGINE notifying player 2 of last move
+2011-02-01 00:25:09.992684: ENGINE notifying player 3 of last move
+2011-02-01 00:25:09.992895: ENGINE finished with next move
+2011-02-01 00:25:10.340488: ENGINE advancing to move # 50
+2011-02-01 00:25:10.340546: ENGINE getting next move from player 2
+2011-02-01 00:25:10.340594: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:10.340633: Player 2 is moving? True
+2011-02-01 00:25:10.341045: Player 2 is at (5, 4) and is moving along shortest path: [(5, 4), (5, 5), (5, 6), (5, 7), (6, 7), (6, 8)]
+2011-02-01 00:25:10.341109: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (5, 4)
+	end: (5, 5)
+2011-02-01 00:25:10.341160: ENGINE has validated player 2's move
+2011-02-01 00:25:10.341188: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:10.341226: ENGINE notifying player 0 of last move
+2011-02-01 00:25:10.341474: ENGINE notifying player 1 of last move
+2011-02-01 00:25:10.341685: ENGINE notifying player 3 of last move
+2011-02-01 00:25:10.341889: ENGINE finished with next move
+2011-02-01 00:25:10.675908: ENGINE advancing to move # 51
+2011-02-01 00:25:10.675965: ENGINE getting next move from player 3
+2011-02-01 00:25:10.676014: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:10.676052: Player 3 is moving? True
+2011-02-01 00:25:10.676284: Player 3 is at (6, 2) and is moving along shortest path: [(6, 2), (5, 2), (5, 1), (5, 0)]
+2011-02-01 00:25:10.676347: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (6, 2)
+	end: (5, 2)
+2011-02-01 00:25:10.676399: ENGINE has validated player 3's move
+2011-02-01 00:25:10.676429: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:10.676467: ENGINE notifying player 0 of last move
+2011-02-01 00:25:10.676720: ENGINE notifying player 1 of last move
+2011-02-01 00:25:10.677015: ENGINE notifying player 2 of last move
+2011-02-01 00:25:10.677231: ENGINE finished with next move
+2011-02-01 00:25:11.009286: ENGINE advancing to move # 52
+2011-02-01 00:25:11.009345: ENGINE getting next move from player 0
+2011-02-01 00:25:11.016862: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (4, 6)
+	end: (3, 6)
+2011-02-01 00:25:11.016929: ENGINE has validated player 0's move
+2011-02-01 00:25:11.016961: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:11.017001: ENGINE notifying player 1 of last move
+2011-02-01 00:25:11.017251: ENGINE notifying player 2 of last move
+2011-02-01 00:25:11.017467: ENGINE notifying player 3 of last move
+2011-02-01 00:25:11.017677: ENGINE finished with next move
+2011-02-01 00:25:11.342499: ENGINE advancing to move # 53
+2011-02-01 00:25:11.342557: ENGINE getting next move from player 1
+2011-02-01 00:25:11.342608: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:11.342646: Player 1 is moving? False
+2011-02-01 00:25:11.343022: Player 1 is at (5, 7) and is moving along shortest path: [(5, 7), (6, 7), (6, 8), (7, 8), (8, 8)]
+2011-02-01 00:25:11.343084: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (5, 7)
+	end: (6, 7)
+2011-02-01 00:25:11.343136: ENGINE has validated player 1's move
+2011-02-01 00:25:11.343164: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:11.343201: ENGINE notifying player 0 of last move
+2011-02-01 00:25:11.343457: ENGINE notifying player 2 of last move
+2011-02-01 00:25:11.343672: ENGINE notifying player 3 of last move
+2011-02-01 00:25:11.343881: ENGINE finished with next move
+2011-02-01 00:25:11.677052: ENGINE advancing to move # 54
+2011-02-01 00:25:11.677109: ENGINE getting next move from player 2
+2011-02-01 00:25:11.677157: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:11.677195: Player 2 is moving? False
+2011-02-01 00:25:11.677501: Player 2 is at (5, 5) and is moving along shortest path: [(5, 5), (5, 6), (5, 7), (6, 7), (6, 8)]
+2011-02-01 00:25:11.677565: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (5, 5)
+	end: (5, 6)
+2011-02-01 00:25:11.677617: ENGINE has validated player 2's move
+2011-02-01 00:25:11.677649: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:11.677688: ENGINE notifying player 0 of last move
+2011-02-01 00:25:11.677948: ENGINE notifying player 1 of last move
+2011-02-01 00:25:11.678165: ENGINE notifying player 3 of last move
+2011-02-01 00:25:11.678374: ENGINE finished with next move
+2011-02-01 00:25:11.994912: ENGINE advancing to move # 55
+2011-02-01 00:25:11.994972: ENGINE getting next move from player 3
+2011-02-01 00:25:11.995020: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:11.995059: Player 3 is moving? False
+2011-02-01 00:25:11.995230: Player 3 is at (5, 2) and is moving along shortest path: [(5, 2), (5, 1), (5, 0)]
+2011-02-01 00:25:11.995293: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (5, 2)
+	end: (5, 1)
+2011-02-01 00:25:11.995346: ENGINE has validated player 3's move
+2011-02-01 00:25:11.995374: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:11.995412: ENGINE notifying player 0 of last move
+2011-02-01 00:25:11.995665: ENGINE notifying player 1 of last move
+2011-02-01 00:25:11.995888: ENGINE notifying player 2 of last move
+2011-02-01 00:25:11.996100: ENGINE finished with next move
+2011-02-01 00:25:12.340009: ENGINE advancing to move # 56
+2011-02-01 00:25:12.340069: ENGINE getting next move from player 0
+2011-02-01 00:25:12.346970: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (3, 6)
+	end: (2, 6)
+2011-02-01 00:25:12.347039: ENGINE has validated player 0's move
+2011-02-01 00:25:12.347069: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:12.347184: ENGINE notifying player 1 of last move
+2011-02-01 00:25:12.347443: ENGINE notifying player 2 of last move
+2011-02-01 00:25:12.347658: ENGINE notifying player 3 of last move
+2011-02-01 00:25:12.347867: ENGINE finished with next move
+2011-02-01 00:25:12.659494: ENGINE advancing to move # 57
+2011-02-01 00:25:12.659552: ENGINE getting next move from player 1
+2011-02-01 00:25:12.659601: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-02-01 00:25:12.659639: Player 1 is moving? False
+2011-02-01 00:25:12.659914: Player 1 is at (6, 7) and is moving along shortest path: [(6, 7), (6, 8), (7, 8), (8, 8)]
+2011-02-01 00:25:12.659987: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (6, 7)
+	end: (6, 8)
+2011-02-01 00:25:12.660040: ENGINE has validated player 1's move
+2011-02-01 00:25:12.660068: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:12.660107: ENGINE notifying player 0 of last move
+2011-02-01 00:25:12.660358: ENGINE notifying player 2 of last move
+2011-02-01 00:25:12.660574: ENGINE notifying player 3 of last move
+2011-02-01 00:25:12.660783: ENGINE finished with next move
+2011-02-01 00:25:12.993317: ENGINE advancing to move # 58
+2011-02-01 00:25:12.993376: ENGINE getting next move from player 2
+2011-02-01 00:25:12.993426: player.move called for player (<model.Model object at 0x7d8440>, 2) with (<model.Model object at 0x7d8440>, 2)
+2011-02-01 00:25:12.993464: Player 2 is moving? True
+2011-02-01 00:25:12.993745: Player 2 is at (5, 6) and is moving along shortest path: [(5, 6), (5, 7), (6, 7), (6, 8)]
+2011-02-01 00:25:12.993808: ENGINE validating player 2 move.PlayerMove:
+	playerId: 2
+	move: True
+	start: (5, 6)
+	end: (5, 7)
+2011-02-01 00:25:12.993861: ENGINE has validated player 2's move
+2011-02-01 00:25:12.993888: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:12.993928: ENGINE notifying player 0 of last move
+2011-02-01 00:25:12.994179: ENGINE notifying player 1 of last move
+2011-02-01 00:25:12.994395: ENGINE notifying player 3 of last move
+2011-02-01 00:25:12.994604: ENGINE finished with next move
+2011-02-01 00:25:13.324600: ENGINE advancing to move # 59
+2011-02-01 00:25:13.324658: ENGINE getting next move from player 3
+2011-02-01 00:25:13.324708: player.move called for player (<model.Model object at 0x7d8440>, 3) with (<model.Model object at 0x7d8440>, 3)
+2011-02-01 00:25:13.324746: Player 3 is moving? True
+2011-02-01 00:25:13.324881: Player 3 is at (5, 1) and is moving along shortest path: [(5, 1), (5, 0)]
+2011-02-01 00:25:13.324944: ENGINE validating player 3 move.PlayerMove:
+	playerId: 3
+	move: True
+	start: (5, 1)
+	end: (5, 0)
+2011-02-01 00:25:13.324996: ENGINE has validated player 3's move
+2011-02-01 00:25:13.325024: ENGINE new <model.Model object at 0x7d8440>
+2011-02-01 00:25:13.325060: MODEL detects player 3 has won the game.
+2011-02-01 00:25:13.325090: ENGINE detects the game is over. Player 3 (player_badcomputer3) has won in 59 moves!
+2011-02-01 00:25:13.325125: ENGINE notifying player 0 of last move
+2011-02-01 00:25:13.325380: ENGINE notifying player 1 of last move
+2011-02-01 00:25:13.325596: ENGINE notifying player 2 of last move
+2011-02-01 00:25:13.325807: ENGINE finished with next move
+2011-02-01 00:25:13.327011: MODEL detects player 3 has won the game.
+2011-02-01 00:25:13.327242: MODEL detects player 3 has won the game.
+2011-02-01 00:25:15.672251: ENGINE shutting down

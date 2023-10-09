@@ -1,0 +1,124 @@
+2011-01-31 22:54:51.744868: ENGINE starting
+2011-01-31 22:54:51.755409: ENGINE loaded player module: player_p242-03q as player 0
+2011-01-31 22:54:51.755905: ENGINE loaded player module: player_human as player 1
+2011-01-31 22:54:51.755936: ENGINE initializing
+2011-01-31 22:54:51.755965: MODEL initializing
+2011-01-31 22:54:51.762163: MODEL reading board file: board.txt
+2011-01-31 22:54:51.762237: ENGINE initializing UI
+2011-01-31 22:54:51.762270: ENGINE UI initializing
+2011-01-31 22:54:52.496358: ENGINE calling each player.init() for player 0
+2011-01-31 22:54:52.497254: ENGINE calling each player.init() for player 1
+2011-01-31 22:54:52.497315: player.init called for player 1 File=board.txt, playerId=1, numPlayers=2, playerHomes=[(8, 4), (0, 4), (4, 0), (4, 8)], wallsRemaining=[10, 5]
+2011-01-31 22:54:52.497377: ENGINE UI entering main loop
+2011-01-31 22:54:53.567821: UI: Mouse position (x,y): (475, 361) Tile: (row, column): (4, 6)
+2011-01-31 22:54:53.567950: ENGINE advancing to move # 0
+2011-01-31 22:54:53.567977: ENGINE getting next move from player 0
+2011-01-31 22:54:53.576570: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (8, 4)
+	end: (7, 4)
+2011-01-31 22:54:53.576648: ENGINE has validated player 0's move
+2011-01-31 22:54:53.576689: ENGINE new <model.Model object at 0x7d8bf8>
+2011-01-31 22:54:53.576725: ENGINE notifying player 1 of last move
+2011-01-31 22:54:53.577020: player.next_move called for player 1 with PlayerMove:
+	playerId: 0
+	move: True
+	start: (8, 4)
+	end: (7, 4)
+2011-01-31 22:54:53.577051: ENGINE finished with next move
+2011-01-31 22:54:54.396674: UI: Mouse position (x,y): (475, 361) Tile: (row, column): (4, 6)
+2011-01-31 22:54:55.034317: UI: Mouse position (x,y): (475, 361) Tile: (row, column): (4, 6)
+2011-01-31 22:54:56.217424: UI: Mouse position (x,y): (475, 361) Tile: (row, column): (4, 6)
+2011-01-31 22:54:56.217537: ENGINE advancing to move # 1
+2011-01-31 22:54:56.217563: ENGINE getting next move from player 1
+2011-01-31 22:54:56.217594: player.move called for player 1 with 1
+2011-01-31 22:55:03.667634: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (0, 4)
+	end: (1, 4)
+2011-01-31 22:55:03.667747: ENGINE has validated player 1's move
+2011-01-31 22:55:03.667791: ENGINE new <model.Model object at 0x7d8bf8>
+2011-01-31 22:55:03.667840: ENGINE notifying player 0 of last move
+2011-01-31 22:55:03.668186: ENGINE finished with next move
+2011-01-31 22:55:05.039337: UI: Mouse position (x,y): (302, 324) Tile: (row, column): (4, 3)
+2011-01-31 22:55:05.636116: UI: Mouse position (x,y): (300, 325) Tile: (row, column): (4, 3)
+2011-01-31 22:55:05.636231: ENGINE advancing to move # 2
+2011-01-31 22:55:05.636257: ENGINE getting next move from player 0
+2011-01-31 22:55:05.660993: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: False
+	start: (1, 0)
+	end: (1, 2)
+2011-01-31 22:55:05.662750: ENGINE has validated player 0's move
+2011-01-31 22:55:05.662789: ENGINE new <model.Model object at 0x7d8bf8>
+2011-01-31 22:55:05.662833: ENGINE notifying player 1 of last move
+2011-01-31 22:55:05.663094: player.next_move called for player 1 with PlayerMove:
+	playerId: 0
+	move: False
+	start: (1, 0)
+	end: (1, 2)
+2011-01-31 22:55:05.663124: ENGINE finished with next move
+2011-01-31 22:55:27.612010: UI: Mouse position (x,y): (637, 343) 
+2011-01-31 22:55:27.612125: ENGINE advancing to move # 3
+2011-01-31 22:55:27.612153: ENGINE getting next move from player 1
+2011-01-31 22:55:27.612183: player.move called for player 1 with 1
+2011-01-31 22:55:37.295589: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: True
+	start: (1, 4)
+	end: (2, 4)
+2011-01-31 22:55:37.295682: ENGINE has validated player 1's move
+2011-01-31 22:55:37.295715: ENGINE new <model.Model object at 0x7d8bf8>
+2011-01-31 22:55:37.295753: ENGINE notifying player 0 of last move
+2011-01-31 22:55:37.296022: ENGINE finished with next move
+2011-01-31 22:55:37.426660: UI: Mouse position (x,y): (562, 335) Tile: (row, column): (4, 8)
+2011-01-31 22:55:37.487286: UI: Mouse position (x,y): (562, 335) Tile: (row, column): (4, 8)
+2011-01-31 22:55:37.551190: UI: Mouse position (x,y): (562, 335) Tile: (row, column): (4, 8)
+2011-01-31 22:55:37.620467: UI: Mouse position (x,y): (562, 335) Tile: (row, column): (4, 8)
+2011-01-31 22:55:37.687234: UI: Mouse position (x,y): (562, 335) Tile: (row, column): (4, 8)
+2011-01-31 22:55:37.750124: UI: Mouse position (x,y): (562, 335) Tile: (row, column): (4, 8)
+2011-01-31 22:55:38.287383: UI: Mouse position (x,y): (493, 259) Tile: (row, column): (6, 6)
+2011-01-31 22:55:39.070493: UI: Mouse position (x,y): (493, 259) Tile: (row, column): (6, 6)
+2011-01-31 22:55:39.449665: UI: Mouse position (x,y): (493, 259) Tile: (row, column): (6, 6)
+2011-01-31 22:55:39.449778: ENGINE advancing to move # 4
+2011-01-31 22:55:39.449809: ENGINE getting next move from player 0
+2011-01-31 22:55:39.458400: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (7, 4)
+	end: (6, 4)
+2011-01-31 22:55:39.458489: ENGINE has validated player 0's move
+2011-01-31 22:55:39.458525: ENGINE new <model.Model object at 0x7d8bf8>
+2011-01-31 22:55:39.458566: ENGINE notifying player 1 of last move
+2011-01-31 22:55:39.458853: player.next_move called for player 1 with PlayerMove:
+	playerId: 0
+	move: True
+	start: (7, 4)
+	end: (6, 4)
+2011-01-31 22:55:39.458890: ENGINE finished with next move
+2011-01-31 22:55:39.686788: UI: Mouse position (x,y): (493, 259) Tile: (row, column): (6, 6)
+2011-01-31 22:55:40.236779: UI: Mouse position (x,y): (493, 259) Tile: (row, column): (6, 6)
+2011-01-31 22:55:40.436852: UI: Mouse position (x,y): (493, 259) Tile: (row, column): (6, 6)
+2011-01-31 22:55:40.619954: UI: Mouse position (x,y): (493, 259) Tile: (row, column): (6, 6)
+2011-01-31 22:55:47.272886: UI: Mouse position (x,y): (412, 389) Tile: (row, column): (3, 5)
+2011-01-31 22:55:47.272998: ENGINE advancing to move # 5
+2011-01-31 22:55:47.273025: ENGINE getting next move from player 1
+2011-01-31 22:55:47.273057: player.move called for player 1 with 1
+2011-01-31 22:56:03.889272: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: False
+	start: (2, 4)
+	end: (3, 4)
+2011-01-31 22:56:03.889398: ERROR: 'MODEL error, wall length must be 2: [2, 4, 3, 4]'
+2011-01-31 22:56:03.892099: TRACE: 
+Traceback (most recent call last):
+  File "engine.py", line 170, in next_move
+  File "model.py", line 154, in validate
+  File "model.py", line 333, in validate_wall
+GameException: 'MODEL error, wall length must be 2: [2, 4, 3, 4]'
+
+2011-01-31 22:56:03.892164: ENGINE invalidating player 1 because they made an invalid move.
+2011-01-31 22:56:03.892201: ENGINE finished with next move
+2011-01-31 23:14:26.249213: ENGINE shutting down

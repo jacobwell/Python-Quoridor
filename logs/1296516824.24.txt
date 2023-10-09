@@ -1,0 +1,51 @@
+2011-01-31 18:33:44.241745: ENGINE starting
+2011-01-31 18:33:44.253929: ENGINE loaded player module: player_p242-03q as player 0
+2011-01-31 18:33:44.256482: ENGINE loaded player module: player_goodcomputer as player 1
+2011-01-31 18:33:44.256527: ENGINE initializing
+2011-01-31 18:33:44.256560: MODEL initializing
+2011-01-31 18:33:44.262875: MODEL reading board file: board.txt
+2011-01-31 18:33:44.262953: ENGINE initializing UI
+2011-01-31 18:33:44.262990: ENGINE UI initializing
+2011-01-31 18:33:45.408656: ENGINE calling each player.init() for player 0
+2011-01-31 18:33:45.409607: ENGINE calling each player.init() for player 1
+2011-01-31 18:33:45.409663: player.init called for player 1 File=board.txt, playerId=1, numPlayers=2, playerHomes=[(8, 4), (0, 4), (4, 0), (4, 8)], wallsRemaining=[10, 5]
+2011-01-31 18:33:45.409741: ENGINE UI entering main loop
+2011-01-31 18:33:46.252203: UI: Mouse position (x,y): (389, 333) Tile: (row, column): (4, 5)
+2011-01-31 18:33:46.252321: ENGINE advancing to move # 0
+2011-01-31 18:33:46.252351: ENGINE getting next move from player 0
+2011-01-31 18:33:46.252409: player.move called for player <player_p242-03q.aBoard object at 0x17e66dc8> with <player_p242-03q.aBoard object at 0x17e66dc8>
+2011-01-31 18:33:46.261388: ENGINE validating player 0 move.PlayerMove:
+	playerId: 0
+	move: True
+	start: (8, 4)
+	end: (7, 4)
+2011-01-31 18:33:46.261503: ENGINE has validated player 0's move
+2011-01-31 18:33:46.261541: ENGINE new <model.Model object at 0x7d8440>
+2011-01-31 18:33:46.261581: ENGINE notifying player 1 of last move
+2011-01-31 18:33:46.261887: ENGINE finished with next move
+2011-01-31 18:33:49.416858: UI: Mouse position (x,y): (409, 384) Tile: (row, column): (3, 5)
+2011-01-31 18:33:49.416970: ENGINE advancing to move # 1
+2011-01-31 18:33:49.416996: ENGINE getting next move from player 1
+2011-01-31 18:33:49.417045: player.move called for player (<model.Model object at 0x7d8440>, 1) with (<model.Model object at 0x7d8440>, 1)
+2011-01-31 18:33:49.418537: Player 1 is moving? False
+2011-01-31 18:33:49.810250: Player 1 detects player 0 is in the lead.
+2011-01-31 18:33:49.810364: Player 1 is placing a wall at : (1, 4, 1, 6)
+2011-01-31 18:33:49.810487: ENGINE validating player 1 move.PlayerMove:
+	playerId: 1
+	move: False
+	start: (1, 4)
+	end: (1, 6)
+2011-01-31 18:33:49.812143: ENGINE has validated player 1's move
+2011-01-31 18:33:49.812177: ENGINE new <model.Model object at 0x7d8440>
+2011-01-31 18:33:49.812212: ENGINE notifying player 0 of last move
+2011-01-31 18:33:49.812473: ENGINE invalidating player 0 from error in last move
+2011-01-31 18:33:49.812507: ERROR:global name 'coor1' is not defined
+2011-01-31 18:33:49.813316: TRACE: 
+Traceback (most recent call last):
+  File "engine.py", line 213, in next_move
+  File "/User/Dropbox/Projects/python/Eclipse-Workspace/Quoridor3-4/player_p242-03q.py", line 223, in last_move
+    str(coor2[0]) + ' ' + str(coor2[1])], playerData)
+NameError: global name 'coor1' is not defined
+
+2011-01-31 18:33:49.813352: ENGINE finished with next move
+2011-01-31 18:34:33.931568: ENGINE shutting down
